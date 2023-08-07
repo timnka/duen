@@ -8,12 +8,12 @@ export default function NavBar() {
   */
   return (
     <div className="w-full bg-slate-100 fixed z-10 flex justify-center drop-shadow-md ">
-      <ul className="h-full w-full flex justify-around items-center text-lg text-black">
-        <Image src={logo} alt="duen logo" height={55} className="py-2" />
-        <li>About</li>
-        <li>Officers</li>
-        <li>Join</li>
-        <li>Contact</li>
+      <ul className="h-full w-full flex justify-around items-center text-lg text-black font-bold">
+        <Image src={logo} alt="duen logo" height={45} className="py-2" />
+        <li>about</li>
+        <li>officers</li>
+        <li>involvement</li>
+        <li>contact</li>
       </ul>
     </div>
   )
