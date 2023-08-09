@@ -6,7 +6,7 @@ export default function TypeWriter() {
     return (
         <>
         <Typewriter
-            words={['lifelong friends.', 'toe-lovers.', 'academic weapons.', 'chegg users.', 'creative.', 'sexy.']}
+            words={['lifelong friends.', 'adventurers.', 'creative.', 'toe-lovers.']}
             loop={false}
             cursor
             cursorStyle='|'

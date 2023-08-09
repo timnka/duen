@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logo from '../photos/duen.png'
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -8,9 +9,9 @@ export default function Footer() {
                 <p className="font-bold">Any questions not listed in our FAQ? Send us an email at duenatdavis@gmail.com</p>
                 <div className="text-lg flex justify-center items-center">
                     <p className="font-bold px-5 py-7">Follow US</p>
-                    <div className="px-5 text-sm">
-                        <p>Instagram</p>
-                        <p>Discord</p>
+                    <div className="px-5 text-sm flex flex-col">
+                        <Link href="https://www.instagram.com/duen_ucd/" target="_blank" className="text-lg">Instagram</Link>
+                        <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" className="text-lg">Discord</Link>
                     </div>
                 </div>
                 <div className="text-base flex flex-row items-center">
