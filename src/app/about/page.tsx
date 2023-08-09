@@ -1,7 +1,9 @@
-export default function About () {
+import Banner from '../components/banner'
+
+export default function About() {
     return (
         <>
-        <h1>This is the about page</h1>
+            <Banner word="ABOUT"></Banner>
         </>
     )
 }

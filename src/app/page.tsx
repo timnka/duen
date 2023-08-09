@@ -1,7 +1,6 @@
-"use client"
 import Image from 'next/image'
 import group1 from './photos/cover1.jpg'
-import TypeWriter from './components/typewriter'
+import {Typewriter} from './components/csc'
 import { Abel } from 'next/font/google'
 import suye from './photos/suye showercap.jpg'
 
@@ -18,12 +17,20 @@ export default function Home() {
   return (
     <>
       {/* Grad cover photo and typewriter. */}
-      <div className="w-full h-screen bg-cover bg-top bg-[url('./grads1.jpg')] flex items-center text-amber-400 text-6xl font-bold">
+      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-amber-400 text-6xl font-bold">
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-3 font-normal">We are... </p>
         </div>
         <div>
-          <TypeWriter />
+          <Typewriter
+            words={['lifelong friends.', 'adventurers.', 'collaborative.', 'toe-lovers.']}
+            loop={false}
+            cursor
+            cursorStyle='|'
+            typeSpeed={120}
+            deleteSpeed={80}
+            delaySpeed={3000} />
+
         </div>
       </div>
 
@@ -32,7 +39,7 @@ export default function Home() {
         {/* Purple DUEN Banner */}
         <div className="h-[15rem] w-full flex justify-center items-center bg-purple-950 w-full">
           <div className="text-white text-5xl">
-            <h1 className={`${abel.className}`}>DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
+            <h1 className="font-abel">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
             <p className="text-amber-400 font-normal text-2xl pt-3">// a professional engineering club at UC Davis.</p>
           </div>
         </div>
@@ -81,8 +88,8 @@ export default function Home() {
 
             {/* President Message and Signature */}
             <div className="w-96 px-10">
-              <p className="text-lg pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.I have an absolute DUMPY. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu.
-                Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. I also like TOES. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper. </p>
+              <p className="text-lg pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu.
+                Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper. </p>
 
               <div className="flex">
                 <p className="text-lg pr-1">Best,</p>
