@@ -4,18 +4,10 @@ import {Typewriter} from './components/csc'
 import { Abel } from 'next/font/google'
 import suye from './photos/suye showercap.jpg'
 
-export const abel = Abel({
-  weight: ['400'],
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-abel',
-})
-
-
 export default function Home() {
 
   return (
-    <>
+    <div className="font-raleway">
       {/* Grad cover photo and typewriter. */}
       <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-amber-400 text-6xl font-bold">
         <div className="w-6/12 flex justify-end">
@@ -77,7 +69,7 @@ export default function Home() {
         {/* Message from Our President */}
         <div className="w-full h-min text-5xl flex flex-col justify-center items-center bg-slate-100 pb-20">
           {/* Title */}
-          <p className={`${abel.className}`}>Message from our President...</p>
+          <p className="font-abel">Message from our President...</p>
 
           {/* photo and message */}
           <div className="flex w-full pt-20 flex justify-center">
@@ -100,6 +92,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

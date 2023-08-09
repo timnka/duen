@@ -29,12 +29,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${abel.variable} ${raleway.variable}`}>
-        <div className="flex justify-center">
+      <body className={`${raleway.variable} ${abel.variable} `}>
+
+        <div className="font-raleway">
           <NavBar></NavBar>
+          {children}
+          <Footer />
         </div>
-        {children}
-        <Footer />
+
       </body>
     </html>
   )
