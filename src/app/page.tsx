@@ -11,7 +11,7 @@ export default function Home() {
       {/* Grad cover photo and typewriter. */}
       <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-amber-400 text-6xl font-bold">
         <div className="w-6/12 flex justify-end">
-          <p className="text-white pr-3 font-normal">We are... </p>
+          <p className="text-white pr-3 font-normal">We are </p>
         </div>
         <div>
           <Typewriter
@@ -29,7 +29,7 @@ export default function Home() {
       {/* Parent component for duen banner, general panel, and message from president. */}
       <div className="text-black flex-col justify-center items-center w-full">
         {/* Purple DUEN Banner */}
-        <div className="h-[15rem] w-full flex justify-center items-center bg-purple-950 w-full">
+        <div className="h-[18rem] w-full flex justify-center items-center bg-purple-950 w-full">
           <div className="text-white text-5xl">
             <h1 className="font-abel">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
             <p className="text-amber-400 font-normal text-2xl pt-3">// a professional engineering club at UC Davis.</p>
@@ -43,10 +43,10 @@ export default function Home() {
           xl - 1280
           2xl - 1536
         */}
-        <div className="min-h-min w-full flex flex-col lg:flex-row items-center bg-slate-100 pb-20">
+        <div className="min-h-min w-full flex flex-col lg:flex-row items-center bg-white">
           
           {/* About Text*/}
-          <div className="w-full lg:w-1/2 h-full text-4xl 2xl:text-5xl bg-slate-100 ">
+          <div className="w-full lg:w-1/2 h-full text-4xl 2xl:text-5xl">
             {/* About Text Container */}
             <div className="px-36 lg:px-24 xl:px-48 py-16">
               <div className="flex pb-3">
@@ -58,7 +58,7 @@ export default function Home() {
                 <p className="font-bold text-purple-800 pr-3">Family</p>
                 <p>by choice.</p>
               </div>
-              <p className="text-base">DUEN is a close-knit group of engineers, and we strive to foster friendships that will last a lifetime.</p>
+              <p className="text-base">DUEN is a close-knit group of ambitious engineers, and we strive to foster friendships that will last a lifetime. We are constantly learning, growing, and bonding as friends and as professionals.</p>
             </div>
           </div>
 
@@ -74,9 +74,9 @@ export default function Home() {
         </div>
 
         {/* Message from Our President */}
-        <div className="w-full h-min text-5xl flex flex-col justify-center items-center bg-slate-100 pb-20">
+        <div className="w-full h-min text-5xl flex flex-col justify-center items-center bg-slate-100 py-20">
           {/* Title */}
-          <p className="font-abel">Message from our President...</p>
+          <p className="font-teko text-purple-800">MESSAGE FROM OUR PRESIDENT</p>
 
           {/* photo and message */}
           <div className="flex w-full pt-20 flex justify-center">

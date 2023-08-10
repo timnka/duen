@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         raleway: ['var(--font-raleway)'],
         abel: ['var(--font-abel)'],
+        teko: ['var(--font-teko)'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
