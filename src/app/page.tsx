@@ -36,12 +36,19 @@ export default function Home() {
           </div>
         </div>
 
-        {/* About Panel Container */}
-        <div className="min-h-min w-full flex flex-col lg:flex-row justify-center items-center bg-slate-100 pb-20">
+        {/* About Panel Container 
+          sm - 640
+          md - 768
+          lg - 1024
+          xl - 1280
+          2xl - 1536
+        */}
+        <div className="min-h-min w-full flex flex-col lg:flex-row items-center bg-slate-100 pb-20">
+          
           {/* About Text*/}
-          <div className="max-w-3xl h-full text-4xl md:text-5xl bg-slate-100 flex flex-col justify-center">
+          <div className="w-full lg:w-1/2 h-full text-4xl 2xl:text-5xl bg-slate-100 ">
             {/* About Text Container */}
-            <div className="px-12 md:px-12 py-16">
+            <div className="px-36 lg:px-24 xl:px-48 py-16">
               <div className="flex pb-3">
                 <p className="font-bold text-purple-800 pr-3">Engineers</p>
                 <p>by title,</p>
@@ -51,13 +58,13 @@ export default function Home() {
                 <p className="font-bold text-purple-800 pr-3">Family</p>
                 <p>by choice.</p>
               </div>
-              <p className="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu. Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper. Fusce varius, eros a consequat fringilla, quam velit consequat augue, at tincidunt erat tortor vitae ipsum. Etiam in nibh velit.</p>
+              <p className="text-base">DUEN is a close-knit group of engineers, and we strive to foster friendships that will last a lifetime.</p>
             </div>
           </div>
 
           {/* Group Photo*/}
-          <div className="px-12">
-            <div className="w-96 flex justify-center items-center overflow-hidden rounded-[18px] relative group">
+          <div className="w-full lg:w-1/2">
+            <div className="h-full flex justify-center items-center object-scale-down overflow-hidden relative group">
               <p className="absolute text-2xl text-white z-10 invisible group-hover:visible">DUEN @ Illenium in Lake Tahoe!</p>
               <Image src={group1} alt="duen group photo" className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
             </div>
