@@ -48,7 +48,7 @@ export default function Home() {
           {/* About Text*/}
           <div className="w-full lg:w-1/2 h-full text-4xl 2xl:text-5xl">
             {/* About Text Container */}
-            <div className="px-36 lg:px-24 xl:px-48 py-16">
+            <div className="px-12 lg:px-26 lg:px-24 xl:px-36 py-32 lg:py-16">
               <div className="flex pb-3">
                 <p className="font-bold text-purple-800 pr-3">Engineers</p>
                 <p>by title,</p>
