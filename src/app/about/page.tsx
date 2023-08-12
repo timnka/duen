@@ -1,9 +1,9 @@
 import Banner from '../components/banner'
-import { Teko } from 'next/font/google'
 import Image from 'next/image'
 import pits from '../photos/pitvipers.jpg'
-import cam from '../photos/cam.jpg'
 import Pillar from '../components/pillar'
+import { companies } from './companies'
+import CompanyBadge from '../components/CompanyBadge'
 
 interface pillarType {
     num: number,
@@ -13,23 +13,7 @@ interface pillarType {
     imageDesc: string,
     isReversed: boolean,
 }
-/*
-<Pillar
-                num={prof.num}
-                name={prof.name}
-                description={prof.description}
-                imagePath={prof.imagePath}
-                imageDesc={prof.imageDesc}
-            />
 
-            <Pillar
-                num={cs.num}
-                name={cs.name}
-                description={cs.description}
-                imagePath={cs.imagePath}
-                imageDesc={cs.imageDesc}
-            />
-*/
 export default function About() {
 
     const cam: pillarType = {
@@ -56,11 +40,14 @@ export default function About() {
         imageDesc: 'DUEN officer feeding the hungry!',
         isReversed: false,
     }
+
+
+
     return (
         <div className="flex flex-col items-center bg-white">
             <Banner word="ABOUT"></Banner>
 
-            <div className="w-full min-h-fit flex flex-col items-center px-16 md:px-32 lg:px-64">
+            <div className="w-full min-h-fit flex flex-col items-center px-16 md:px-32 lg:px-64 bg-slate-100">
                 <p className="font-teko text-5xl py-16 text-purple-800">OUR MISSION</p>
 
                 {/* Mission Photo */}
@@ -74,7 +61,8 @@ export default function About() {
                 <p className="py-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div className="flex flex-col items-center pb-10">
+            {/* Pillars */}
+            <div className="flex flex-col items-center">
                 <Pillar
                     num={cam.num}
                     name={cam.name}
@@ -99,6 +87,24 @@ export default function About() {
                     imageDesc={cs.imageDesc}
                     isReversed={cs.isReversed}
                 />
+            </div>
+
+            {/* alumni network */}
+            <div className="w-full flex flex-col items-center bg-slate-100 pb-20">
+                <div className="flex flex-col justify-center items-center px-16 md:px-32 lg:px-64">
+                    <p className="font-teko text-5xl pt-20 text-purple-800">OUR ALUMNI NETWORK</p>
+                    <p className="py-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div className="flex flex-wrap justify-center px-20">
+                    {
+                        companies.map((item, index) => {
+                            return <div className="px-3 py-3"><CompanyBadge name={item.name} source={item.link}></CompanyBadge></div>
+                        }
+                        )
+                    }
+                </div>
+
+
             </div>
 
 

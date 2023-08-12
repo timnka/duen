@@ -1,7 +1,9 @@
+import Banner from '../components/banner'
+
 export default function Officers () {
     return (
-        <>
-        <h1>This is the officers page</h1>
-        </>
+        <div className="flex flex-col">
+            <Banner word="MEET OUR OFFICERS"></Banner>
+        </div>
     )
 }

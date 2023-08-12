@@ -26,7 +26,7 @@ const Pillar: React.FC<pillarType> = ({ num, name, description, imagePath, image
             <div className="w-full md:w-1/2 flex flex-col py-20 md:py-5 px-14 md:px-18 justify-center">
                 <div className="flex pb-8">
                     <p className="text-5xl max-h-min text-purple-800 font-bold font-teko">{num}</p>
-                    <p className="text-4xl text-black pl-5">{name}</p>
+                    <p className="text-4xl text-black font-bold pl-5 font-abel">{name}</p>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
