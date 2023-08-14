@@ -46,8 +46,14 @@ export default function About() {
     return (
         <div className="flex flex-col items-center bg-white">
             <Banner word="ABOUT"></Banner>
-
-            <div className="w-full min-h-fit flex flex-col items-center px-16 md:px-32 lg:px-64 bg-slate-100">
+            {/* About Panel Container 
+          sm - 640
+          md - 768
+          lg - 1024
+          xl - 1280
+          2xl - 1536
+        */}
+            <div className="w-full min-h-fit flex flex-col items-center px-5 md:px-16 lg:px-64 bg-slate-100">
                 <p className="font-teko text-5xl py-16 text-purple-800">OUR MISSION</p>
 
                 {/* Mission Photo */}
