@@ -12,7 +12,7 @@ interface pillarType {
 const Pillar: React.FC<pillarType> = ({ num, name, description, imagePath, imageDesc, isReversed }) => {
     return (
         // Pillar Container
-        <div className={isReversed ? "w-full md:w-3/4 min-h-fit md:flex md:flex-row-reverse bg-purple-50" : "w-full md:w-3/4 md:min-h-fit md:flex bg-purple-50"}>
+        <div className={isReversed ? "w-full md:w-3/4 min-h-fit md:flex md:flex-row-reverse" : "w-full md:w-3/4 md:min-h-fit md:flex"}>
             {/* Photo Container */}
             <div className="w-full lg:w-1/2 min-h-fit flex flex-col">
                 {/* Decsription and Photo Container */}
@@ -23,13 +23,13 @@ const Pillar: React.FC<pillarType> = ({ num, name, description, imagePath, image
             </div>
 
             {/* Pillar Description Container */}
-            <div className="w-full lg:w-1/2 flex flex-col py-20 md:py-5  justify-center">
+            <div className="w-full lg:w-1/2 flex flex-col py-20 md:py-0 lg:py-10  justify-center">
                 <div className="px-10 lg:px-20">
-                    <div className="flex pb-8">
-                        <p className="text-4xl md:text:3xl xl:text-5xl max-h-min text-purple-800 font-bold font-teko">{num}</p>
+                    <div className="flex pb-1 lg:pb-8">
+                        <p className="text-4xl md:text:3xl xl:text-5xl max-h-min text-duen-gold-400 font-bold font-teko">{num}</p>
                         <p className="text-3xl md:text-2xl xl:text-4xl text-black font-bold pl-5 font-abel">{name}</p>
                     </div>
-                    <p className="text-base md:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
 
                 
