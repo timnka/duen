@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Raleway, Abel, Teko } from 'next/font/google'
+import { Poppins, Raleway, Abel, Teko } from 'next/font/google'
 import NavBar from './components/navbar'
 import Footer from './components/footer'
 
@@ -8,6 +8,13 @@ export const raleway = Raleway({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-raleway',
+})
+
+export const poppins = Poppins({
+  weight: ['300', '400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-poppins',
 })
 
 export const abel = Abel({
@@ -36,9 +43,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${raleway.variable} ${abel.variable} ${teko.variable}`}>
+      <body className={`${poppins.variable} ${raleway.variable} ${abel.variable} ${teko.variable}`}>
 
-        <div className="font-raleway">
+        <div className="font-poppins">
           <NavBar></NavBar>
           {children}
           <Footer />

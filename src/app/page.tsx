@@ -7,9 +7,9 @@ import suye from './photos/suye showercap.jpg'
 export default function Home() {
 
   return (
-    <div className="font-raleway">
+    <div>
       {/* Grad cover photo and typewriter. */}
-      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-amber-400 text-6xl font-bold">
+      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-duen-gold-400 text-6xl font-bold">
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-3 font-normal">We are </p>
         </div>
@@ -29,10 +29,10 @@ export default function Home() {
       {/* Parent component for duen banner, general panel, and message from president. */}
       <div className="text-black flex-col justify-center items-center w-full">
         {/* Purple DUEN Banner */}
-        <div className="h-[18rem] w-full flex justify-center items-center bg-purple-950 w-full">
+        <div className="h-[18rem] w-full flex justify-center items-center bg-duen-purple-400 w-full">
           <div className="text-white text-5xl">
-            <h1 className="font-abel">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
-            <p className="text-amber-400 font-normal text-2xl pt-3">// a professional engineering club at UC Davis.</p>
+            <h1 className="text-duen-gold-500 font-abel">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
+            <p className="text-duen-gold-300 font-normal text-2xl pt-3">// a professional engineering club at UC Davis.</p>
           </div>
         </div>
 
@@ -45,17 +45,17 @@ export default function Home() {
         */}
         <div className="min-h-min w-full flex flex-col lg:flex-row items-center bg-white">
           
-          {/* About Text*/}
+          {/* General Text*/}
           <div className="w-full lg:w-1/2 h-full text-4xl 2xl:text-5xl">
-            {/* About Text Container */}
-            <div className="px-12 lg:px-26 lg:px-24 xl:px-36 py-32 lg:py-16">
+            {/* General Text Container */}
+            <div className="px-12 lg:px-26 lg:px-22 xl:px-36 py-32 lg:py-14">
               <div className="flex pb-3">
-                <p className="font-bold text-purple-800 pr-3">Engineers</p>
+                <p className="font-bold text-duen-gold-400 pr-3">Engineers</p>
                 <p>by title,</p>
               </div>
 
               <div className="flex pb-14">
-                <p className="font-bold text-purple-800 pr-3">Family</p>
+                <p className="font-bold text-duen-gold-400 pr-3">Family</p>
                 <p>by choice.</p>
               </div>
               <p className="text-base">DUEN is a close-knit group of ambitious engineers, and we strive to foster friendships that will last a lifetime. We are constantly learning, growing, and bonding as friends and as professionals.</p>
@@ -74,9 +74,9 @@ export default function Home() {
         </div>
 
         {/* Message from Our President */}
-        <div className="w-full h-min text-5xl flex flex-col justify-center items-center bg-slate-100 py-20">
+        <div className="w-full h-min text-5xl flex flex-col justify-center items-center text-black bg-slate py-20">
           {/* Title */}
-          <p className="font-teko text-purple-800">MESSAGE FROM OUR PRESIDENT</p>
+          <p className="font-teko text-duen-gold-500">MESSAGE FROM OUR PRESIDENT</p>
 
           {/* photo and message */}
           <div className="flex w-full pt-20 flex justify-center">
@@ -92,9 +92,9 @@ export default function Home() {
 
               <div className="flex">
                 <p className="text-lg pr-1">Best,</p>
-                <p className="text-lg font-bold text-purple-800">Matthew Suyetani</p>
+                <p className="text-lg font-bold text-duen-gold-500">Matthew Suyetani</p>
               </div>
-              <p className="text-base pb-8">Fall 2021 Cohort</p>
+              <p className="text-sm pb-8">Fall 2021 Cohort</p>
             </div>
           </div>
         </div>

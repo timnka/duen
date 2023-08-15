@@ -1,4 +1,4 @@
-import logo from '../photos/duen.png'
+import logo from '../photos/duen-gold.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -8,7 +8,7 @@ export default function NavBar() {
      <ul className="h-full w-full flex justify-around items-center text-lg text-black">
   */
   return (
-    <div className="w-full bg-white fixed z-10 flex justify-center drop-shadow-md font-teko">
+    <div className="w-full bg-duen-purple-500 text-duen-gold-500 fixed z-10 flex justify-center drop-shadow-md font-teko">
       <ul className="h-full w-full flex justify-around items-center text-2xl text-black">
         <Link href="/">
           <Image src={logo} alt="duen logo" height={45} className="py-2 transition duration-150 ease-out hover:ease-in" />

@@ -44,11 +44,17 @@ export default function About() {
 
 
     return (
-        <div className="flex flex-col items-center bg-white">
+        <div className="flex flex-col items-center">
             <Banner word="ABOUT"></Banner>
-
-            <div className="w-full min-h-fit flex flex-col items-center px-16 md:px-32 lg:px-64 bg-slate-100">
-                <p className="font-teko text-5xl py-16 text-purple-800">OUR MISSION</p>
+            {/* About Panel Container 
+          sm - 640
+          md - 768
+          lg - 1024
+          xl - 1280
+          2xl - 1536
+        */}
+            <div className="w-full min-h-fit flex flex-col items-center px-5 md:px-16 lg:px-64 bg-duen-white">
+                <p className="font-teko text-5xl py-16 text-duen-gold-500">OUR MISSION</p>
 
                 {/* Mission Photo */}
                 <div className="w-96 min-h-fit">
@@ -62,7 +68,7 @@ export default function About() {
             </div>
 
             {/* Pillars */}
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center bg-slate">
                 <Pillar
                     num={cam.num}
                     name={cam.name}
@@ -90,9 +96,9 @@ export default function About() {
             </div>
 
             {/* alumni network */}
-            <div className="w-full flex flex-col items-center bg-slate-100 pb-20">
+            <div className="w-full flex flex-col items-center pb-20">
                 <div className="flex flex-col justify-center items-center px-16 md:px-32 lg:px-64">
-                    <p className="font-teko text-5xl pt-20 text-purple-800">OUR ALUMNI NETWORK</p>
+                    <p className="font-teko text-5xl pt-20 text-duen-gold-500">OUR ALUMNI NETWORK</p>
                     <p className="py-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="flex flex-wrap justify-center px-20">
