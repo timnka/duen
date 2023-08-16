@@ -10,7 +10,7 @@ import { actives } from './actives'
 
 export default function Officers() {
 
-    
+
     return (
         <div className="flex flex-col min-h-fit">
             <Banner word="MEET OUR OFFICERS"></Banner>
@@ -19,10 +19,10 @@ export default function Officers() {
             <div className="w-full flex flex-col items-center py-20">
                 <p className="text-5xl pb-20">Executive Board</p>
                 <div className="flex flex-wrap justify-center">
-                    {eboard.map((curr_officer, index) =>{
+                    {eboard.map((curr_officer, index) => {
                         return (
                             <div>
-                                <OfficerBadge 
+                                <OfficerBadge
                                     name={curr_officer.name}
                                     year={curr_officer.year}
                                     major={curr_officer.major}
@@ -41,19 +41,19 @@ export default function Officers() {
             <div className="w-full flex flex-col items-center pb-20">
                 <p className="text-5xl pb-20">Active Officers</p>
                 <div className="flex flex-wrap justify-center">
-                    {actives.map((curr_officer, index) =>{
+                    {actives.map((curr_officer, index) => {
                         return (
-                            <div>
-                                <OfficerBadge 
-                                    name={curr_officer.name}
-                                    year={curr_officer.year}
-                                    major={curr_officer.major}
-                                    cohort={curr_officer.cohort}
-                                    position={curr_officer.position}
-                                    linkedin={curr_officer.linkedin}
-                                    image={curr_officer.image}
-                                />
-                            </div>
+
+                            <OfficerBadge
+                                name={curr_officer.name}
+                                year={curr_officer.year}
+                                major={curr_officer.major}
+                                cohort={curr_officer.cohort}
+                                position={curr_officer.position}
+                                linkedin={curr_officer.linkedin}
+                                image={curr_officer.image}
+                            />
+
                         )
                     })}
                 </div>

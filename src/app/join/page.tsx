@@ -1,7 +1,9 @@
+import Banner from '@/app/components/banner'
+
 export default function Join () {
     return (
         <>
-        <h1>This is the join page</h1>
+            <Banner word="JOIN"></Banner>
         </>
     )
 }
