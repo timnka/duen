@@ -4,19 +4,11 @@ import pits from '../photos/pitvipers.jpg'
 import Pillar from '../components/pillar'
 import { companies } from './companies'
 import CompanyBadge from '../components/CompanyBadge'
-
-interface pillarType {
-    num: number,
-    name: string,
-    description: string,
-    imagePath: string,
-    imageDesc: string,
-    isReversed: boolean,
-}
+import PillarType from '@/app/models/IPillarType'
 
 export default function About() {
 
-    const cam: pillarType = {
+    const cam:PillarType = {
         num: 1,
         name: 'Camaraderie',
         description: 'description',
@@ -24,7 +16,7 @@ export default function About() {
         imageDesc: 'Selfie time at our 2023 grad shoot!',
         isReversed: false,
     }
-    const prof: pillarType = {
+    const prof:PillarType = {
         num: 2,
         name: 'Professionalism',
         description: 'description',
@@ -32,7 +24,7 @@ export default function About() {
         imageDesc: 'Officers at DUEN formal 2023!',
         isReversed: true,
     }
-    const cs: pillarType = {
+    const cs:PillarType = {
         num: 3,
         name: 'Philanthropy',
         description: 'description',
@@ -41,18 +33,10 @@ export default function About() {
         isReversed: false,
     }
 
-
-
     return (
         <div className="flex flex-col items-center">
             <Banner word="ABOUT"></Banner>
-            {/* About Panel Container 
-          sm - 640
-          md - 768
-          lg - 1024
-          xl - 1280
-          2xl - 1536
-        */}
+            
             <div className="w-full min-h-fit flex flex-col items-center px-5 md:px-16 lg:px-64 bg-duen-white">
                 <p className="font-teko text-5xl py-16 text-duen-gold-500">OUR MISSION</p>
 

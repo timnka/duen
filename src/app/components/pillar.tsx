@@ -1,15 +1,7 @@
 import Image from 'next/image'
+import PillarType from '@/app/models/IPillarType'
 
-interface pillarType {
-    num: number,
-    name: string,
-    description: string,
-    imagePath: string,
-    imageDesc: string,
-    isReversed: boolean,
-}
-
-const Pillar: React.FC<pillarType> = ({ num, name, description, imagePath, imageDesc, isReversed }) => {
+const Pillar: React.FC<PillarType> = ({ num, name, description, imagePath, imageDesc, isReversed }) => {
     return (
         // Pillar Container
         <div className={isReversed ? "w-full md:w-3/4 min-h-fit md:flex md:flex-row-reverse" : "w-full md:w-3/4 md:min-h-fit md:flex"}>

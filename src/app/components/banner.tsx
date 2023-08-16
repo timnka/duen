@@ -10,7 +10,7 @@ export default function Banner({ word }: { word: string }) {
                 loop={1}
                 cursor
                 cursorStyle='|'
-                typeSpeed={150}
+                typeSpeed={100}
             />
         </div>
     )

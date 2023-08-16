@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     colors: {
       'white': "#ffffff",
-      'slate': '#dedede',
+      'slate': '#ececec',
+      'linkedin-blue': '#0077b5',
       'duen-gold-100': '#fff2d7',
       'duen-gold-200': '#edd6aa',
       'duen-gold-300': '#c7aa72',
