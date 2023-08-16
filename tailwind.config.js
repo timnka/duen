@@ -7,8 +7,14 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'white': "#ffffff",
-      'slate': '#ececec',
+      'white': '#ffffff',
+      'cream': '#fffdd0',
+      'gray-400': '#aaaaaa',
+      'gray-300': '#dedede',
+      'gray-200': '#ececec',
+      'gray-100': '#fafafa',
+      'light-blue': '#ADD8E6',
+      'lavender': '#edd1ff',
       'linkedin-blue': '#0077b5',
       'duen-gold-100': '#fff2d7',
       'duen-gold-200': '#edd6aa',

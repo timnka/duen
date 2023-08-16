@@ -31,7 +31,7 @@ export default function Home() {
         {/* Purple DUEN Banner font-abel*/}
         <div className="h-[18rem] w-full flex justify-center items-center bg-duen-purple-400 w-full">
           <div className="text-white text-5xl">
-            <h1 className="text-duen-gold-300 ">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
+            <h1 className="text-duen-gold-300 font-abel font-bold">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
             <p className="text-duen-gold-500 font-normal text-2xl pt-3">// a professional engineering club at UC Davis.</p>
           </div>
         </div>
@@ -74,9 +74,9 @@ export default function Home() {
         </div>
 
         {/* Message from Our President */}
-        <div className="w-full h-min text-5xl flex flex-col justify-center items-center text-black bg-slate py-20">
+        <div className="w-full h-min text-5xl flex flex-col justify-center items-center text-black bg-gray-200 py-20">
           {/* Title */}
-          <p className="text-duen-gold-500">MESSAGE FROM OUR PRESIDENT</p>
+          <p className="text-duen-gold-500 font-teko">MESSAGE FROM OUR PRESIDENT</p>
 
           {/* photo and message */}
           <div className="flex w-full pt-20 flex justify-center">

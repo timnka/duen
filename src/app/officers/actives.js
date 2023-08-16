@@ -9,7 +9,7 @@ export const actives = [
         image: '/officers/ama2.jpg',
     },
     {
-        name: '💀💀💀',
+        name: 'suye be like 💀',
         year: 'Class of 2023',
         major: 'Podiatric Medicine and Engineering',
         cohort: 'Fall 2021 Cohort',
@@ -36,6 +36,15 @@ export const actives = [
         image: '/officers/ama2.png',
     },
     {
+        name: 'LOGEEZY2',
+        year: 'Class of 2023',
+        major: 'Podiatric Medicine and Engineering',
+        cohort: 'Fall 2021 Cohort',
+        position: 'President',
+        linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        image: '/officers/la3.jpeg',
+    },
+    {
         name: 'LOGEEZY',
         year: 'Class of 2023',
         major: 'Podiatric Medicine and Engineering',
@@ -45,7 +54,7 @@ export const actives = [
         image: '/officers/laur.jpg',
     },
     {
-        name: 'ken',
+        name: 'ken (bro is majestic)',
         year: 'Class of 2023',
         major: 'Podiatric Medicine and Engineering',
         cohort: 'Fall 2021 Cohort',
@@ -90,7 +99,7 @@ export const actives = [
         image: '/officers/aru.png',
     },
     {
-        name: 'suyee',
+        name: 'we ❤️ bananas',
         year: 'Class of 2023',
         major: 'Podiatric Medicine and Engineering',
         cohort: 'Fall 2021 Cohort',
@@ -98,17 +107,9 @@ export const actives = [
         linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: '/officers/ma.png',
     },
+    
     {
-        name: 'LOGEEZY2',
-        year: 'Class of 2023',
-        major: 'Podiatric Medicine and Engineering',
-        cohort: 'Fall 2021 Cohort',
-        position: 'President',
-        linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        image: '/officers/la3.jpeg',
-    },
-    {
-        name: 'suyee2',
+        name: 'a brush a day keeps the dentist away',
         year: 'Class of 2023',
         major: 'Podiatric Medicine and Engineering',
         cohort: 'Fall 2021 Cohort',

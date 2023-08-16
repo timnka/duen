@@ -52,7 +52,7 @@ export default function About() {
             </div>
 
             {/* Pillars */}
-            <div className="flex flex-col items-center bg-slate">
+            <div className="flex flex-col items-center bg-gray-200">
                 <Pillar
                     num={cam.num}
                     name={cam.name}
