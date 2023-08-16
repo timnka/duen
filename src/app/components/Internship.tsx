@@ -33,15 +33,6 @@ export default function Internship() {
 
 
             </div>
-
-            {/* Process Container */}
-            <div className="w-full lg:w-11/12 px-10 py-10 flex flex-col items-center">
-                <p className="font-teko text-5xl">The Internship Timeline</p>
-
-                <div className="w-full bg-duen-purple-200 text-duen-gold-300">
-                    hello world
-                </div>
-            </div>
         </div>
 
     )
