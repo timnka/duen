@@ -9,7 +9,7 @@ export const actives = [
         image: '/officers/ama2.jpg',
     },
     {
-        name: 'suye be like 💀',
+        name: '💀',
         year: 'Class of 2023',
         major: 'Podiatric Medicine and Engineering',
         cohort: 'Fall 2021 Cohort',

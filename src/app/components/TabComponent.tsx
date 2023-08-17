@@ -15,13 +15,13 @@ export default function TabComponent() {
         <div className="w-full min-h-fit pb-20">
             {/* Tab Labels Container */}
             <div className="w-full flex">
-                <div className={`w-1/2 text-3xl font-teko py-5 flex justify-center rounded-t-lg 
+                <div className={`w-1/2 text-2xl py-5 flex justify-center rounded-t-lg 
                 ${isInternshipTab ? "bg-duen-gold-100" : "bg-gray-300 hover:cursor-pointer"}`} onClick={isInternshipTab ? undefined : toggleTabs }>
-                    INTERNSHIP
+                    Internship
                 </div>
-                <div className={`w-1/2 text-3xl font-teko py-5 flex justify-center rounded-t-lg 
+                <div className={`w-1/2 text-2xl py-5 flex justify-center rounded-t-lg 
                  ${isInternshipTab ? "hover:cursor-pointer bg-gray-300" : "bg-duen-gold-100"}`} onClick={isInternshipTab ? toggleTabs : undefined }>
-                    GENERAL MEMBER
+                    General Member
                 </div>
             </div>
             {/* Data Container */}

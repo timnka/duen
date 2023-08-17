@@ -6,7 +6,7 @@ export default function Internship() {
         <div className="flex flex-col items-center">
             {/* Title Container */}
             <div className="pt-20">
-                <p className="font-teko text-5xl">Want to become a DUEN Officer?</p>
+                <p className="text-5xl">Want to become a DUEN Officer?</p>
             </div>
 
             {/* Data Container */}
@@ -23,7 +23,7 @@ export default function Internship() {
 
                 {/* Bullets Container */}
                 <div className="w-full lg:w-1/2 px-10 py-10 flex flex-col">
-                    <p className="font-teko text-3xl pb-8">Go through our internship program to...</p>
+                    <p className="text-3xl pb-8">Go through our internship program to...</p>
                     <BulletPoint sample="Join a fun, welcoming group of engineers at UC Davis!"></BulletPoint>
                     <BulletPoint sample="Take on high impact leadership roles to keep serving the Davis engineering community."></BulletPoint>
                     <BulletPoint sample="Acquire invaluable professional development through our simulated internship program."></BulletPoint>

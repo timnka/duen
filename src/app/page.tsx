@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <div>
       {/* Grad cover photo and typewriter. */}
-      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-duen-gold-400 text-6xl font-bold">
+      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-duen-gold-200 text-6xl font-bold">
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-3 font-normal">We are </p>
         </div>
         <div>
           <Typewriter
-            words={['lifelong friends.', 'adventurers.', 'collaborative.', 'toe-lovers.']}
+            words={['lifelong friends.', 'adventurers.', 'passionate.']}
             loop={false}
             cursor
             cursorStyle='|'
@@ -29,9 +29,9 @@ export default function Home() {
       {/* Parent component for duen banner, general panel, and message from president. */}
       <div className="text-black flex-col justify-center items-center w-full">
         {/* Purple DUEN Banner font-abel*/}
-        <div className="h-[18rem] w-full flex justify-center items-center bg-duen-purple-400 w-full">
+        <div className="h-[18rem] w-full flex justify-center items-center bg-duen-purple-400 to-purple">
           <div className="text-white text-5xl">
-            <h1 className="text-duen-gold-300 font-abel font-bold">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
+            <h1 className="text-duen-gold-300">Davis Undergraduate Engineering Network</h1>
             <p className="text-duen-gold-500 font-normal text-2xl pt-3">// a professional engineering club at UC Davis.</p>
           </div>
         </div>
@@ -50,12 +50,12 @@ export default function Home() {
             {/* General Text Container */}
             <div className="px-12 lg:px-26 lg:px-22 xl:px-36 py-32 lg:py-14">
               <div className="flex pb-3">
-                <p className="font-bold text-duen-gold-400 pr-3">Engineers</p>
+                <p className="font-bold text-purple pr-3">Engineers</p>
                 <p>by title,</p>
               </div>
 
               <div className="flex pb-14">
-                <p className="font-bold text-duen-gold-400 pr-3">Family</p>
+                <p className="font-bold text-purple pr-3">Family</p>
                 <p>by choice.</p>
               </div>
               <p className="text-base">DUEN is a close-knit group of ambitious engineers, and we strive to foster friendships that will last a lifetime. We are constantly learning, growing, and bonding as friends and as professionals.</p>
@@ -76,23 +76,23 @@ export default function Home() {
         {/* Message from Our President */}
         <div className="w-full h-min text-5xl flex flex-col justify-center items-center text-black bg-gray-200 py-20">
           {/* Title */}
-          <p className="text-duen-gold-500 font-teko">MESSAGE FROM OUR PRESIDENT</p>
+          <p className="text-purple font-bold">Message from our President</p>
 
           {/* photo and message */}
-          <div className="flex w-full pt-20 flex justify-center">
+          <div className="flex flex-col lg:flex-row w-full lg:w-2/3 pt-20 flex justify-center items-center">
             {/* President Portrait Photo */}
-            <div className="w-64 max-h-min">
+            <div className="w-80 max-h-min">
               <Image src={suye} objectFit={'contain'} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
             </div>
 
             {/* President Message and Signature */}
-            <div className="w-96 px-10">
+            <div className="w-1/2 px-16 py-5 lg:py-0">
               <p className="text-lg pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu.
                 Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper. </p>
 
               <div className="flex">
                 <p className="text-lg pr-1">Best,</p>
-                <p className="text-lg font-bold text-duen-gold-500">Matthew Suyetani</p>
+                <p className="text-lg font-bold text-purple">Matthew Suyetani</p>
               </div>
               <p className="text-sm pb-8">Fall 2021 Cohort</p>
             </div>

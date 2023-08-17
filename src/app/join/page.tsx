@@ -8,12 +8,12 @@ export default function Join() {
 
     return (
         <div className="flex flex-col min-h-fit">
-            <Banner word="JOIN"></Banner>
+            <Banner word="join"></Banner>
             <div className="w-full flex flex-col items-center px-5 md:px-16 lg:px-32">
-                <p className="font-teko text-5xl py-20">RECRUITMENT</p>
+                <p className="text-6xl font-bold text-purple py-20">Recruitment</p>
                 <p className="pb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                <div>
+                <div className="w-full flex flex-col items-center">
                     {
                         recruiting ?
                             <div className="flex flex-col items-center">
@@ -25,11 +25,13 @@ export default function Join() {
                                 <Image src="/fall23flyer.png" width={400} height={400} alt="flyer"></Image>
                             </div>
                             :
-                            <div className="font-bold">We are not currently recruiting new officers. We open up recruitment every fall and spring quarters. Please come back in September or follow our instagram page for updates!</div>
+                            <div className="w-2/3 font-bold bg-gray-300 rounded-lg py-5 px-3">
+                                We are not currently recruiting new officers. We open recruitment at the beginning of every fall and spring quarters. Follow our instagram page for updates!
+                            </div>
                     }
                 </div>
 
-                <p className="font-teko text-4xl py-20">We welcome you to join us through either of these programs...</p>
+                <p className="text-6xl font-bold text-purple py-20">Join us through either of these programs...</p>
                 <TabComponent></TabComponent>
 
             </div>
