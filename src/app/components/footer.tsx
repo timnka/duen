@@ -15,8 +15,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="text-base flex flex-row items-center">
-                    <p>Delivered to you by</p>
+                    <p>💜 Delivered to you by</p>
                     <Image src={logo} alt="duen logo" height={35} className="px-1" />
+                    <p>💜</p>
                 </div>
             </div>
 

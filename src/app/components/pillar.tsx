@@ -1,15 +1,7 @@
 import Image from 'next/image'
+import PillarType from '@/app/models/IPillarType'
 
-interface pillarType {
-    num: number,
-    name: string,
-    description: string,
-    imagePath: string,
-    imageDesc: string,
-    isReversed: boolean,
-}
-
-const Pillar: React.FC<pillarType> = ({ num, name, description, imagePath, imageDesc, isReversed }) => {
+const Pillar: React.FC<PillarType> = ({ num, name, description, imagePath, imageDesc, isReversed }) => {
     return (
         // Pillar Container
         <div className={isReversed ? "w-full md:w-3/4 min-h-fit md:flex md:flex-row-reverse" : "w-full md:w-3/4 md:min-h-fit md:flex"}>
@@ -26,8 +18,8 @@ const Pillar: React.FC<pillarType> = ({ num, name, description, imagePath, image
             <div className="w-full lg:w-1/2 flex flex-col py-20 md:py-0 lg:py-10  justify-center">
                 <div className="px-10 lg:px-20">
                     <div className="flex pb-1 lg:pb-8">
-                        <p className="text-4xl md:text:3xl xl:text-5xl max-h-min text-duen-gold-400 font-bold font-teko">{num}</p>
-                        <p className="text-3xl md:text-2xl xl:text-4xl text-black font-bold pl-5 font-abel">{name}</p>
+                        <p className="text-3xl md:text-2xl xl:text-4xl max-h-min text-duen-gold-400 font-bold">{num}</p>
+                        <p className="text-3xl md:text-2xl xl:text-4xl text-duen-purple-300 font-bold pl-5">{name}</p>
                     </div>
                     <p className="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
