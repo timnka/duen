@@ -42,7 +42,7 @@ export default function About() {
                     {/* Mission Photo */}
                     <div className="w-full lg:w-1/2 min-h-fit px-5">
                         <div className="h-full flex justify-center items-center object-scale-down overflow-hidden relative group rounded-lg">
-                            <p className="absolute text-2xl text-white z-10 invisible group-hover:visible">Cool guy with pit vipers on his way to school</p>
+                            <p className="absolute text-2xl text-white z-10 invisible group-hover:visible">Cool guy taking selife before school</p>
                             <Image src={pits} alt="duen group photo" objectFit={'contain'} className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       {/* Grad cover photo and typewriter. */}
-      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-duen-gold-200 text-6xl font-bold">
+      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-duen-gold-200 text-xl sm:text-5xl font-bold">
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-3 font-normal">We are </p>
         </div>
