@@ -47,12 +47,12 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 px-5">
-                        <p className="text-7xl font-bold text-purple py-5">Our Mission.</p>
+                        <p className="font-bold text-purple pt-16 pb-8 text-4xl md:text-5xl lg:text-6xl">Our Mission</p>
                         <p className="py-5">To develop and maintain a high standard of professional interest among its members and to unite them in a strong bond of fraternal fellowship. Ecclesiastes 9:10</p>
                     </div>
                 </div>
             </div>
-            <p className="text-purple text-7xl font-bold py-24">DUEN Pillars</p>
+            <p className="text-purple text-4xl md:text-5xl lg:text-6xl font-bold py-24">DUEN Pillars</p>
             {/* 
             <div className="w-full min-h-min flex items-center justify-center bg-gradient-to-r from-duen-purple-300 to-purple">
                 <p className="text-duen-gold-200 text-5xl font-bold py-24">DUEN Pillars</p>
@@ -85,7 +85,7 @@ export default function About() {
                     isReversed={cs.isReversed}
                 />
             </div>
-            <p className="text-purple text-7xl font-bold py-24">Alumni Network</p>
+            <p className="text-purple text-4xl md:text-5xl lg:text-6xl font-bold py-24">Alumni Network</p>
             {/* alumni network */}
             <div className="w-full flex flex-col items-center pb-20">
                 <div className="flex flex-col justify-center items-center px-16 md:px-32 lg:px-64">

@@ -15,7 +15,7 @@ export default function Officers() {
 
             {/* Executive Board Container */}
             <div className="w-full flex flex-col items-center py-20">
-                <p className="text-5xl font-bold text-purple pb-20">Executive Board</p>
+                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple pb-20">Executive Board</p>
                 <div className="flex flex-wrap justify-center">
                     {eboard.map((curr_officer, index) => {
                         return (
@@ -37,7 +37,7 @@ export default function Officers() {
 
             {/* Active Officers Container */}
             <div className="w-full flex flex-col items-center pb-20">
-                <p className="text-5xl pb-20 text-purple font-bold">Active Officers</p>
+                <p className="text-4xl md:text-5xl lg:text-6xl pb-20 text-purple font-bold">Active Officers</p>
                 <div className="flex flex-wrap justify-center">
                     {actives.map((curr_officer, index) => {
                         return (
