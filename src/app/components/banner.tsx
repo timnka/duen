@@ -1,4 +1,4 @@
-import { Typewriter } from '../components/csc'
+import { Typewriter } from './Typewriter'
 
 export default function Banner({ word }: { word: string }) {
 

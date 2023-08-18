@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import group1 from './photos/cover1.jpg'
-import { Typewriter } from './components/csc'
+import { Typewriter } from './components/Typewriter'
 import { Abel } from 'next/font/google'
 import suye from './photos/suye showercap.jpg'
 
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
 
             {/* President Message and Signature */}
-            <div className="w-full md:px-16 lg:w-1/3 py-12 lg:py-0">
+            <div className="w-full px-3 md:px-16 lg:w-1/3 py-12 lg:py-0">
               <p className="text-lg pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu.
                 Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper. </p>
 
