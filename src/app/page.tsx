@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import group1 from './photos/cover1.jpg'
 import { Typewriter } from './components/Typewriter'
-import { Abel } from 'next/font/google'
-import suye from './photos/suye showercap.jpg'
+import { messageFromPresident } from './DATAmessageFromPresident'
+import { groupPhoto } from './DATAgroupPhoto'
 
 export default function Home() {
 
   return (
     <div>
       {/* Grad cover photo and typewriter. */}
-      <div className="w-full h-screen bg-cover bg-top bg-[url('./photos/grads1.jpg')] flex items-center text-duen-gold-200 text-xl sm:text-5xl font-bold">
+      <div className="w-full h-screen bg-cover bg-top bg-[url('/landing-content/grads1.jpg')] flex items-center text-duen-gold-200 text-xl sm:text-5xl font-bold">
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-3 font-normal">We are </p>
         </div>
@@ -22,7 +22,6 @@ export default function Home() {
             typeSpeed={120}
             deleteSpeed={80}
             delaySpeed={3000} />
-
         </div>
       </div>
 
@@ -36,15 +35,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* About Panel Container 
-          sm - 640
-          md - 768
-          lg - 1024
-          xl - 1280
-          2xl - 1536
-        */}
+        {/* About Panel Container */}
         <div className="min-h-min w-full flex flex-col lg:flex-row items-center bg-white">
-
           {/* General Text*/}
           <div className="w-full lg:w-1/2 h-full text-4xl 2xl:text-5xl">
             {/* General Text Container */}
@@ -65,35 +57,32 @@ export default function Home() {
           {/* Group Photo*/}
           <div className="w-full lg:w-1/2">
             <div className="h-full flex justify-center items-center object-scale-down overflow-hidden relative group">
-              <p className="absolute text-2xl text-white z-10 invisible group-hover:visible">DUEN @ Illenium in Lake Tahoe!</p>
-              <Image src={group1} alt="duen group photo" className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
+              <p className="absolute text-2xl text-white z-10 invisible group-hover:visible">{groupPhoto.imageDesc}</p>
+              <Image src={groupPhoto.path} width={1100} height={900} alt="duen group photo" className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
             </div>
           </div>
-
         </div>
 
         {/* Message from Our President */}
         <div className="w-full h-min  flex flex-col justify-center items-center text-black bg-gray-200 py-20">
           {/* Title */}
-          <p className="text-purple font-bold text-3xl lg:text-5xl">Message from our President</p>
+          <p className="text-purple font-bold text-3xl lg:text-5xl">{messageFromPresident.title}</p>
 
           {/* photo and message */}
           <div className="flex flex-col lg:flex-row w-full pt-20 flex justify-center items-center">
             {/* President Portrait Photo */}
             <div className="w-64 max-h-min">
-              <Image src={suye} objectFit={'contain'} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
+              <Image src={messageFromPresident.imagePath} width={700} height={600} objectFit={'contain'} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
             </div>
 
             {/* President Message and Signature */}
             <div className="w-full px-3 md:px-16 lg:w-1/3 py-12 lg:py-0">
-              <p className="text-lg pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu.
-                Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper. </p>
-
+              <p className="text-lg pb-8">{messageFromPresident.message}</p>
               <div className="flex">
                 <p className="text-lg pr-1">Best,</p>
-                <p className="text-lg font-bold text-purple">Matthew Suyetani</p>
+                <p className="text-lg font-bold text-purple">{messageFromPresident.presidentName}</p>
               </div>
-              <p className="text-sm">Fall 2021 Cohort</p>
+              <p className="text-sm">{messageFromPresident.presidentCohort} Cohort</p>
             </div>
           </div>
         </div>

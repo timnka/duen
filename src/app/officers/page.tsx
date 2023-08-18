@@ -2,8 +2,8 @@ import Banner from '../components/banner'
 import OfficerBadge from '../components/OfficerBadge'
 import OfficerType from '@/app/models/IOfficerType'
 import Image from 'next/image'
-import { eboard } from './eboard'
-import { actives } from './actives'
+import { eboard } from './DATAeboard'
+import { actives } from './DATAactives'
 /*
 
 */
