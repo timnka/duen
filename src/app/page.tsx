@@ -80,12 +80,12 @@ export default function Home() {
           {/* photo and message */}
           <div className="flex flex-col lg:flex-row w-full pt-20 flex justify-center items-center">
             {/* President Portrait Photo */}
-            <div className="w-full w-64 max-h-min">
+            <div className="w-64 max-h-min">
               <Image src={suye} objectFit={'contain'} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
             </div>
 
             {/* President Message and Signature */}
-            <div className="w-full px-16 lg:w-1/3 py-12 lg:py-0">
+            <div className="w-full md:px-16 lg:w-1/3 py-12 lg:py-0">
               <p className="text-lg pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu.
                 Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper. </p>
 
