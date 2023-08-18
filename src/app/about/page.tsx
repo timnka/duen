@@ -2,7 +2,7 @@ import Banner from '../components/banner'
 import Image from 'next/image'
 import pits from '../photos/pitvipers.jpg'
 import Pillar from '../components/pillar'
-import { companies } from './companies'
+import { companies } from './DATAcompanies'
 import CompanyBadge from '../components/CompanyBadge'
 import PillarType from '@/app/models/IPillarType'
 
