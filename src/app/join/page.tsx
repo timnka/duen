@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Banner from '@/app/components/banner'
-import TabComponent from '@/app/components/TabComponent'
+import TabComponent from '@/app/join/TabComponent'
 
 export default function Join() {
 

@@ -1,11 +1,11 @@
 import Banner from '../components/banner'
 import Image from 'next/image'
-import Pillar from '@/app/components/pillar'
+import Pillar from '@/app/about/pillar'
 import { companies } from './DATAcompanies'
 import { pillars } from './DATApillars'
 import { mission } from './DATAmissionStatement'
 import { alumniNetwork } from './DATAalumniNetwork'
-import CompanyBadge from '@/app/components/CompanyBadge'
+import CompanyBadge from '@/app/about/CompanyBadge'
 
 export default function About() {
 

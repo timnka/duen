@@ -1,5 +1,5 @@
 import Banner from '../components/banner'
-import OfficerBadge from '../components/OfficerBadge'
+import OfficerBadge from './OfficerBadge'
 import OfficerType from '@/app/models/IOfficerType'
 import Image from 'next/image'
 import { eboard } from './DATAeboard'

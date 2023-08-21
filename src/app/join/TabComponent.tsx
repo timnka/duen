@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
-import GeneralMember from '@/app/components/GeneralMember'
-import Internship from '@/app/components/Internship'
+import GeneralMember from '@/app/join/GeneralMember'
+import Internship from '@/app/join/Internship'
 
 
 export default function TabComponent() {

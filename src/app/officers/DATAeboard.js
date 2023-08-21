@@ -37,6 +37,15 @@ on the webpage.
 
 export const eboard = [
     {
+        name: 'ama2',
+        year: 'Class of 2023',
+        major: 'Computer Science and Engineering',
+        cohort: 'Fall 2021 Cohort',
+        position: 'President',
+        linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        image: '/officers/ama2.jpg',
+    },
+    {
         name: 'n8 dogg',
         year: 'Class of 2023',
         major: 'Podiatry Engineering',
@@ -44,15 +53,6 @@ export const eboard = [
         position: 'President',
         linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: '/officers/n8.jpeg',
-    },
-    {
-        name: 'mamanda',
-        year: 'Class of 2023',
-        major: 'Computer Science and Engineering',
-        cohort: 'Fall 2021 Cohort',
-        position: 'President',
-        linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        image: '/officers/ama.png',
     },
     {
         name: 'n8 dogg',
@@ -72,4 +72,5 @@ export const eboard = [
         linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: '/officers/ama.png',
     },
+    
 ]

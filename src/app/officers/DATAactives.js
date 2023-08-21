@@ -10,8 +10,8 @@ Each JSON object has the format:
 {
     name: 'Officer Name',
     year: 'Class of []',
-    major: 'Computer Science and Engineering',
-    cohort: 'Fall 2021 Cohort',
+    major: '[INSERT MAJOR HERE]',
+    cohort: '[TERM] [YEAR] Cohort',
     position: 'President',
     linkedin: 'https://linkedin.com/[officer]',
     image: '/officers/[officer-photo].jpg',
