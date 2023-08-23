@@ -16,7 +16,7 @@ export default function FAQ() {
             <Banner word="faq"></Banner>
 
             <div className="w-full md:w-2/3 py-20 px-5 md:px-20 font-bold">
-                <Accordion allowMultipleExpanded={true} allowZeroExpanded={true}>
+                <Accordion allowZeroExpanded={true}>
                     {
                         faqlist.map((item) => {
                             return (
