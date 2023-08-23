@@ -21,7 +21,7 @@ const Pillar: React.FC<PillarType> = ({ num, name, description, imagePath, image
                         <p className="text-3xl md:text-2xl xl:text-4xl max-h-min text-duen-gold-400 font-bold">{num}</p>
                         <p className="text-3xl md:text-2xl xl:text-4xl text-duen-purple-300 font-bold pl-5">{name}</p>
                     </div>
-                    <p className="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-base">{description}</p>
                 </div>
 
                 
