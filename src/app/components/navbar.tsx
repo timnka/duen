@@ -1,5 +1,4 @@
 "use client"
-import logo from '../photos/duen-gold.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -13,7 +12,7 @@ export default function NavBar() {
       <div className='md:flex items-center justify-between h-16 bg-duen-purple-500 py-2 md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center pl-1 md:pl-8'>
           <Link href="/">
-            <Image src={logo} alt="duen logo" height={45} className="transition duration-150 ease-out hover:ease-in" />
+            <Image src='/icons-logos/duen-gold.png' alt="duen logo" height={45} width={140} />
           </Link>
         </div>
 

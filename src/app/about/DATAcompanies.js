@@ -18,9 +18,11 @@ even missing, the program will likely crash. *************
 ******* NOTE: THE LOGO MUST BE A PNG WITH A TRANSPARENT BACKGROUND OR ANY OTHER IMAGE WITH A WHITE BACKGROUND *******
 ************* OTHERWISE IT WOULD LOOK SILLY ON THE WEBSITE *******
 
-The project imports all photos from the 'public' directory. The path prefix '/' is
-set to already reference this folder. So, if you want to access the image called
-'tesla-logo.png' in the public directory, use the 'path' value '/tesla-logo.png'.
+This entire project imports all photos from the 'public' directory. 
+The path prefix '/' is already set to already reference this folder.
+So, if the file 'image1.png' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
+    '/folder1/image1.png'. DO NOT USE THE PATH '/public/folder1/image1.png', IT WILL NOT WORK IF YOU DO SO.
+Having '/' be the prefix for the path is already recognized as referencing the 'public' directory.
 
 This component will pull images from the directory '/about-content/logos' in the 'public' directory.
 When updating the photos, add your desired photo in this directory, and update the

@@ -27,9 +27,11 @@ so only pillar 2's isreversed value should be set to true. For the other two pil
 set to false, as we want them to be displayed regularly.
 
 
-*** The project imports static photos from the 'public' directory. The path prefix '/' is
-set to already reference this folder. So, if you want to access the image called
-'tesla-logo.png' in the public directory, use the 'imagePath' value '/tesla-logo.png'. ***
+This entire project imports all photos from the 'public' directory. 
+The path prefix '/' is already set to already reference this folder.
+So, if the file 'image1.png' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
+    '/folder1/image1.png'. DO NOT USE THE PATH '/public/folder1/image1.png', IT WILL NOT WORK IF YOU DO SO.
+Having '/' be the prefix for the path is already recognized as referencing the 'public' directory.
 
 The pillars component will pull images from the directory '/about-content/pillars'.
 When updating the photos, add your desired photos in this directory, and update the

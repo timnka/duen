@@ -21,9 +21,11 @@ even missing, the program will likely crash. *************
 The properties should be pretty straight forward, just make sure that the image is located in the correct
 directory, the image path references the corect file, and the correct image description is provided.
 
-The project imports all photos from the 'public' directory. The path prefix '/' is
-set to already reference this folder. So, if you want to access the image called
-'tesla-logo.png' in the public directory, use the 'path' value '/tesla-logo.png'.
+This entire project imports all photos from the 'public' directory. 
+The path prefix '/' is already set to already reference this folder.
+So, if the file 'image1.png' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
+    '/folder1/image1.png'. DO NOT USE THE PATH '/public/folder1/image1.png', IT WILL NOT WORK IF YOU DO SO.
+Having '/' be the prefix for the path is already recognized as referencing the 'public' directory.
 
 THIS component will pull images from the directory '/about-content' in the 'public' directory.
 When updating the photo, add your desired photo in this directory, and update the

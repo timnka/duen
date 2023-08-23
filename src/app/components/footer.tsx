@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import logo from '../photos/duen-gold.png'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -40,7 +39,7 @@ export default function Footer() {
                 {/* Regards from DUEN */}
                 <div className="flex flex-row items-center">
                     <p>💜 With love from the officers at</p>
-                    <Image src={logo} alt="duen logo" height={35} className="px-1" />
+                    <Image src='/icons-logos/duen-gold.png' alt="duen logo" width={100} height={35} className="px-1" />
                     <p>💜</p>
                 </div>
             </div>

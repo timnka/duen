@@ -20,9 +20,11 @@ Each JSON object has the format:
 ******* Each json must follow the above format. If any properties are in a different order as listed above or
 even missing, the program will likely crash. *************
 
-The project imports all photos from the 'public' directory. The path prefix '/' is
-set to already reference this folder. So, if you want to access the image called
-'tesla-logo.png' in the public directory, use the 'path' value '/tesla-logo.png'.
+This entire project imports all photos from the 'public' directory. 
+The path prefix '/' is already set to already reference this folder.
+So, if the file 'image1.png' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
+    '/folder1/image1.png'. DO NOT USE THE PATH '/public/folder1/image1.png', IT WILL NOT WORK IF YOU DO SO.
+Having '/' be the prefix for the path is already recognized as referencing the 'public' directory.
 
 THIS component will pull images from the directory '/officers' in the 'public' directory.
 When updating the photos, add your desired photo in this directory, and update the
@@ -53,6 +55,15 @@ export const eboard = [
         position: 'President',
         linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: '/officers/n8.jpeg',
+    },
+    {
+        name: 'LOGEEZY2',
+        year: 'Class of 2023',
+        major: 'Computer Science and Engineering',
+        cohort: 'Fall 2021 Cohort',
+        position: 'President',
+        linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        image: '/officers/la3.jpeg',
     },
     {
         name: 'n8 dogg',
