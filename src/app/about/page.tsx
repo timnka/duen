@@ -21,7 +21,7 @@ export default function About() {
                     <div className="w-full lg:w-1/2 min-h-fit px-5">
                         <div className="h-full flex justify-center items-center object-scale-down overflow-hidden relative group rounded-lg">
                             <p className="absolute text-2xl text-white z-10 invisible group-hover:visible">{mission.imageDesc}</p>
-                            <Image src={mission.path} width={800} height={800} alt="duen group photo" objectFit={'contain'} className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
+                            <Image src={mission.path} width={800} height={800} alt="duen group photo" className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 px-5">
@@ -36,7 +36,7 @@ export default function About() {
             <div className="flex flex-col items-center bg-gray-200">
                 {
                     pillars.map((curr) => {
-                        return <Pillar
+                        return <Pillar key={curr.name}
                             num={curr.num}
                             name={curr.name}
                             description={curr.description}

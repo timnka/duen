@@ -30,9 +30,9 @@ export default function NavBar() {
         <ul className={`md:flex md:items-center md:pb-0 absolute md:static left-0 w-full md:w-auto md:pl-0 shadow-md transition-all duration-500 ease-in z-[-1] md:z-0 ${isOpen ? 'top-16' : 'top-[-490px]'}`}>
           {
             links.map((link) => (
-              <div className="pl-16 bg-duen-purple-300 md:bg-duen-purple-500 text-white py-2">
-                <Link href={link.path} onClick={() => setIsOpen(!isOpen)}>{link.name}</Link>
-              </div>
+              <li key={link.name} className="pl-16 bg-duen-purple-300 md:bg-duen-purple-500 text-white py-2">
+                <Link href={link.path}  onClick={() => setIsOpen(!isOpen)}>{link.name}</Link>
+              </li>
             ))
           }
         </ul>

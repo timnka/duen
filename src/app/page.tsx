@@ -30,8 +30,8 @@ export default function Home() {
         {/* Purple DUEN Banner font-abel*/}
         <div className="h-[18rem] w-full flex justify-center items-center bg-duen-purple-400 to-purple">
           <div className="text-white text-2xl md:text-4xl lg:text-5xl">
-            <h1 className="text-duen-gold-300">Davis Undergraduate Engineering Network</h1>
-            <p className="text-duen-gold-500 font-normal text-lg lg:text-3xl pt-3">// a professional engineering club at UC Davis.</p>
+            <h1 className="text-duen-gold-300 font-abel">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
+            <p className="text-duen-gold-500 font-normal text-md lg:text-2xl pt-3">// a professional engineering club at UC Davis.</p>
           </div>
         </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row w-full pt-20 flex justify-center items-center">
             {/* President Portrait Photo */}
             <div className="w-64 max-h-min">
-              <Image src={messageFromPresident.imagePath} width={700} height={600} objectFit={'contain'} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
+              <Image src={messageFromPresident.imagePath} width={700} height={600} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
             </div>
 
             {/* President Message and Signature */}
