@@ -72,7 +72,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row w-full pt-20 flex justify-center items-center">
             {/* President Portrait Photo */}
             <div className="w-64 max-h-min">
-              <Image src={messageFromPresident.imagePath} width={700} height={600} objectFit={'contain'} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
+              <Image src={messageFromPresident.imagePath} width={700} height={600} alt="duen group photo" className="rounded-[18px] px-1 py-1"></Image>
             </div>
 
             {/* President Message and Signature */}
