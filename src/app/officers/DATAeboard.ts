@@ -48,13 +48,13 @@ export const eboard = [
         image: '/officers/ama2.jpg',
     },
     {
-        name: 'n8 dogg',
+        name: 'ken2 (bro is majestic)',
         year: 'Class of 2023',
-        major: 'Podiatry Engineering',
+        major: 'Computer Science and Engineering',
         cohort: 'Fall 2021 Cohort',
         position: 'President',
         linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        image: '/officers/n8.jpeg',
+        image: '/officers/ken.png',
     },
     {
         name: 'LOGEEZY2',

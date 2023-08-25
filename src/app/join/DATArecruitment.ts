@@ -59,7 +59,7 @@ export const recruitment = {
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     isActive: false,
     activeRecruitment: {
-        title: 'We are actively recruiting new officers for Fall 2023!',
+        title: 'We are actively recruiting new officers for Spring 2024!',
         activeDescription: 'Come meet and hang out with DUEN officers at our recruitment events. Date, time, and location can be seen below.',
         flyer: '/join-content/fall23flyer.png'
     },

@@ -3,6 +3,12 @@ import Link from 'next/link'
 import Banner from '@/app/components/banner'
 import TabComponent from '@/app/join/TabComponent'
 import { recruitment } from './DATArecruitment'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'DUEN - Join',
+  description: '',
+}
 
 export default function Join() {
 

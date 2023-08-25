@@ -6,6 +6,12 @@ import { pillars } from './DATApillars'
 import { mission } from './DATAmissionStatement'
 import { alumniNetwork } from './DATAalumniNetwork'
 import CompanyBadge from '@/app/about/CompanyBadge'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'DUEN - About',
+  description: '',
+}
 
 export default function About() {
 

@@ -4,6 +4,12 @@ import group1 from './photos/cover1.jpg'
 import { Typewriter } from './components/Typewriter'
 import { messageFromPresident } from './DATAmessageFromPresident'
 import { groupPhoto } from './DATAgroupPhoto'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Davis Undergraduate Engineering Network',
+  description: '',
+}
 
 export default function Home() {
 

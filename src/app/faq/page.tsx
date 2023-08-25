@@ -8,6 +8,12 @@ import {
 } from '@/app/components/Accordion'
 import 'react-accessible-accordion/dist/fancy-example.css';
 import { faqlist } from './DATAfaq'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'DUEN - FAQ',
+  description: '',
+}
 
 
 export default function FAQ() {
@@ -16,7 +22,7 @@ export default function FAQ() {
             <Banner word="faq"></Banner>
 
             <div className="w-full md:w-2/3 py-20 px-5 md:px-20 font-bold">
-                <Accordion allowMultipleExpanded={true} allowZeroExpanded={true}>
+                <Accordion allowZeroExpanded={true}>
                     {
                         faqlist.map((item) => {
                             return (
