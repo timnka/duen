@@ -1,12 +1,13 @@
 import Banner from '../components/banner'
 import OfficerBadge from './OfficerBadge'
-import OfficerType from '@/app/models/IOfficerType'
-import Image from 'next/image'
 import { eboard } from './DATAeboard'
 import { actives } from './DATAactives'
-/*
-
-*/
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'DUEN - Officers',
+  description: '',
+}
 
 export default function Officers() {
     return (
