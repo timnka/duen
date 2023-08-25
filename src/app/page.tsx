@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import group1 from './photos/cover1.jpg'
 import { Typewriter } from './components/Typewriter'
 import { messageFromPresident } from './DATAmessageFromPresident'
@@ -9,11 +10,11 @@ export default function Home() {
   return (
     <div>
       {/* Grad cover photo and typewriter. */}
-      <div className="w-full h-screen bg-cover bg-top bg-[url('/landing-content/grads1.jpg')] flex items-center text-duen-gold-200 text-xl sm:text-5xl font-bold">
+      <div className="w-full h-screen bg-cover bg-top bg-[url('/landing-content/grads1.jpg')] flex items-center  text-xl sm:text-5xl relative">
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-3 font-normal">We are </p>
         </div>
-        <div>
+        <div className='text-duen-gold-300 font-bold'>
           <Typewriter
             words={['lifelong friends.', 'adventurers.', 'passionate.']}
             loop={false}
@@ -22,6 +23,12 @@ export default function Home() {
             typeSpeed={120}
             deleteSpeed={80}
             delaySpeed={3000} />
+        </div>
+
+        <div className='absolute w-full h-screen flex items-center justify-center pt-36'>
+          <Link href='/join' className='bg-purple  text-white text-base md:text-2xl px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
+            LEARN MORE
+          </Link>
         </div>
       </div>
 

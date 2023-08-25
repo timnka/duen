@@ -5,8 +5,10 @@ export default function Footer() {
     return (
         <div className="min-h-full w-full bg-duen-purple-500 text-duen-gold-200 text-sm md:text-base">
             <div className="flex flex-col items-center justify-center py-8">
-                <p className="font-bold text-duen-gold-400">Any questions not listed in our FAQ? Send us an email at [***insert duen email here***]</p>
-
+                <p className="font-bold text-duen-gold-400 pb-7">Any questions not listed in our FAQ? Send us an email at contact@email.com</p>
+                <Link href='https://google.com' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
+                    Fill out our Interest Form!
+                </Link>
                 {/* Socials */}
                 <div className="text-lg flex justify-center items-center">
                     <p className="font-bold px-5 py-7">Socials</p>
@@ -25,6 +27,7 @@ export default function Footer() {
                             </svg>
                         </Link>
                     </div>
+
                 </div>
 
                 {/* Takumi Signature */}

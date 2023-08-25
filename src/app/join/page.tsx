@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Banner from '@/app/components/banner'
 import TabComponent from '@/app/join/TabComponent'
 import { recruitment } from './DATArecruitment'
@@ -13,7 +14,12 @@ export default function Join() {
             <div className="w-full flex flex-col items-center px-16 md:px-32 lg:px-64">
                 <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple py-20">{recruitment.title}</p>
                 <p className="pb-20">{recruitment.description}</p>
-                <div className="w-full flex flex-col items-center">
+
+                <Link href='https://google.com' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
+                    Interest Form
+                </Link>
+
+                <div className="w-full flex flex-col items-center pt-10">
                     {
                         recruitment.isActive ?
                             <div className="flex flex-col items-center">

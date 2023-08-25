@@ -10,6 +10,7 @@ module.exports = {
       'white': '#ffffff',
       'cream': '#fffdd0',
       'purple': '#310652',
+      'purple-800': '#5b21b6',
       'gray-400': '#aaaaaa',
       'gray-300': '#dedede',
       'gray-200': '#ececec',
