@@ -37,6 +37,7 @@ export default function About() {
                 {
                     pillars.map((curr) => {
                         return <Pillar
+                            key={curr.name}
                             num={curr.num}
                             name={curr.name}
                             description={curr.description}
@@ -57,7 +58,7 @@ export default function About() {
                 <div className="flex flex-wrap justify-center px-20">
                     {
                         companies.map((item, index) => {
-                                return <div className="px-3 py-3"><CompanyBadge name={item.name} path={item.path}></CompanyBadge></div>
+                                return <div key={item.name} className="px-3 py-3"><CompanyBadge  name={item.name} path={item.path}></CompanyBadge></div>
                             }
                         )
                     }

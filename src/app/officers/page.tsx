@@ -19,8 +19,9 @@ export default function Officers() {
                 <div className="flex flex-wrap justify-center">
                     {eboard.map((curr_officer, index) => {
                         return (
-                            <div>
+                            
                                 <OfficerBadge
+                                    key={curr_officer.name}
                                     name={curr_officer.name}
                                     year={curr_officer.year}
                                     major={curr_officer.major}
@@ -29,7 +30,7 @@ export default function Officers() {
                                     linkedin={curr_officer.linkedin}
                                     image={curr_officer.image}
                                 />
-                            </div>
+                            
                         )
                     })}
                 </div>
@@ -43,6 +44,7 @@ export default function Officers() {
                         return (
 
                             <OfficerBadge
+                                key={curr_officer.name}
                                 name={curr_officer.name}
                                 year={curr_officer.year}
                                 major={curr_officer.major}
