@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className='text-duen-gold-300 font-bold'>
           <Typewriter
-            words={['lifelong friends.', 'adventurers.', 'passionate.']}
+            words={['lifelong friends.','passionate.','adventurers.','engineers!']}
             loop={false}
             cursor
             cursorStyle='|'
@@ -43,7 +43,7 @@ export default function Home() {
         {/* Purple DUEN Banner font-abel*/}
         <div className="h-[18rem] w-full flex justify-center items-center bg-duen-purple-400 to-purple">
           <div className="text-white text-2xl md:text-4xl lg:text-5xl">
-            <h1 className="text-duen-gold-300">Davis Undergraduate Engineering Network</h1>
+            <h1 className="font-abel text-duen-gold-300">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
             <p className="text-duen-gold-500 font-normal text-lg lg:text-3xl pt-3">// a professional engineering club at UC Davis.</p>
           </div>
         </div>

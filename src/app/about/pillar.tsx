@@ -4,9 +4,9 @@ import PillarType from '@/app/models/IPillarType'
 const Pillar: React.FC<PillarType> = ({ num, name, description, imagePath, imageDesc, isReversed }) => {
     return (
         // Pillar Container
-        <div className={isReversed ? "w-full md:w-3/4 min-h-fit md:flex md:flex-row-reverse" : "w-full md:w-3/4 md:min-h-fit md:flex"}>
+        <div className={isReversed ? "w-full xl:w-3/4 min-h-fit xl:flex xl:flex-row-reverse" : "w-full xl:w-3/4 xl:min-h-fit xl:flex"}>
             {/* Photo Container */}
-            <div className="w-full lg:w-1/2 min-h-fit flex flex-col">
+            <div className="w-full px-20 xl:px-0 xl:w-1/2 min-h-fit flex flex-col">
                 {/* Decsription and Photo Container */}
                 <div className="h-full w-full flex justify-center items-center object-scale-down overflow-hidden relative group">
                     <p className="flex justify-center absolute text-xl text-white z-10 invisible group-hover:visible">{imageDesc}</p>
@@ -15,16 +15,16 @@ const Pillar: React.FC<PillarType> = ({ num, name, description, imagePath, image
             </div>
 
             {/* Pillar Description Container */}
-            <div className="w-full lg:w-1/2 flex flex-col py-20 md:py-0 lg:py-10  justify-center">
-                <div className="px-10 lg:px-20">
-                    <div className="flex pb-1 lg:pb-8">
-                        <p className="text-3xl md:text-2xl xl:text-4xl max-h-min text-duen-gold-400 font-bold">{num}</p>
-                        <p className="text-3xl md:text-2xl xl:text-4xl text-duen-purple-300 font-bold pl-5">{name}</p>
+            <div className="w-full xl:w-1/2 flex flex-col py-20 lg:py-10 justify-center">
+                <div className="px-28 xl:px-12">
+                    <div className="text-3xl xl:text-4xl flex pb-8 md:pb-3 lg:pb-8">
+                        <p className="max-h-min text-duen-gold-400 font-bold">{num}</p>
+                        <p className="text-duen-purple-300 font-bold pl-5">{name}</p>
                     </div>
                     <p className="text-base">{description}</p>
                 </div>
 
-                
+
             </div>
         </div>
     )
