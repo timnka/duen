@@ -7,10 +7,10 @@ import { mission } from './DATAmissionStatement'
 import { alumniNetwork } from './DATAalumniNetwork'
 import CompanyBadge from '@/app/about/CompanyBadge'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'DUEN - About',
-  description: '',
+    title: 'DUEN - About',
+    description: '',
 }
 
 export default function About() {
@@ -64,8 +64,10 @@ export default function About() {
                 <div className="flex flex-wrap justify-center px-20">
                     {
                         companies.map((item) => {
-                                return <div key={item.name} className="px-3 py-3"><CompanyBadge  name={item.name} path={item.path}></CompanyBadge></div>
-                            }
+                            return <div key={item.name} className="px-3 py-3">
+                                <CompanyBadge name={item.name} path={item.path}></CompanyBadge>
+                            </div>
+                        }
                         )
                     }
                 </div>
