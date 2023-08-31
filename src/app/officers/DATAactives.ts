@@ -179,7 +179,7 @@ export const actives = [
         major: 'Civil Engineering',
         cohort: 'Spring 2023 Cohort',
         position: 'Finance',
-        linkedin: 'https://www.linkedin.com/in/bryan-nguyen-38b397276/',
+        linkedin: 'https://www.linkedin.com/in/krwong35/',
         image: '/officers/wong_kenneth.jpeg',
     },
 ]

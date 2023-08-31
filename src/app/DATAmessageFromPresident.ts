@@ -24,8 +24,8 @@ exported JSONs with the appropriate image paths and descriptions.
 
 export const messageFromPresident = {
     title: 'A Message From Our President',
-    message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum neque. Integer eu tellus id erat euismod malesuada. Maecenas id nunc ac arcu venenatis viverra. Vestibulum quis bibendum arcu. Vivamus sed mauris eget purus mollis suscipit. Nunc eleifend consequat elit, ac feugiat nulla blandit in. Proin sed leo at ex tristique tempus. Sed ac quam a nisi laoreet semper.',
-    presidentName: 'Matthew Suyetani',
-    presidentCohort: 'Fall 2022',
-    imagePath: '/landing-content/suye showercap.jpg'
+    message: 'Hi everyone! The Davis Undergraduate Engineering Network (DUEN) welcomes everyone with an interest in any engineering discipline to attend our events! As a member of DUEN, you meet other undergraduates with a variety of interests that grow to be your lifelong friends. In my past four years at Davis, I’ve met my closest friends in DUEN. I’m forever grateful to DUEN for connecting me with so many ambitious and innovative individuals. I’m proud to represent this group of officers and their work for the engineering community, and I hope to see you all at our events this year! ',
+    presidentName: 'Samantha Wang',
+    presidentCohort: 'Founding Cohort',
+    imagePath: '/officers/sam.png'
 }

@@ -43,7 +43,7 @@ Practice good file management by placing files in the correct directories, using
 */
 
 export const generalMember = {
-    title: 'Join us as a General Member?!',
+    title: 'Join us as a General Member!',
     imagePath: '/join-content/duen-group.jpg',
     imageDesc: 'DUEN Officers at the State Fair!',
     bulletPoints: [

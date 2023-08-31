@@ -45,7 +45,7 @@ export const eboard = [
         cohort: 'Founding Cohort',
         position: 'President',
         linkedin: 'https://www.linkedin.com/in/samanthaswang/',
-        image: '/officers/SamanthaWang.jpg',
+        image: '/officers/sam.png',
     },
     {
         name: 'Michael Leong',
