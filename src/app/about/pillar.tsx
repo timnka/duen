@@ -10,7 +10,7 @@ const Pillar: React.FC<PillarType> = ({ num, name, description, imagePath, image
                 {/* Decsription and Photo Container */}
                 <div className="h-full w-full flex justify-center items-center object-scale-down overflow-hidden relative group">
                     <p className="flex justify-center absolute text-xl text-white z-10 invisible group-hover:visible">{imageDesc}</p>
-                    <img src={imagePath} alt="duen group photo" className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></img>
+                    <Image src={imagePath} alt="duen group photo" width={1000} height={1000} className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
                 </div>
             </div>
 

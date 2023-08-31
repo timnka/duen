@@ -24,9 +24,9 @@ export default function FAQ() {
             <div className="w-full md:w-2/3 py-20 px-5 md:px-20 font-bold">
                 <Accordion allowZeroExpanded={true}>
                     {
-                        faqlist.map((item) => {
+                        faqlist.map((item, index) => {
                             return (
-                                <AccordionItem>
+                                <AccordionItem key={index}>
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
                                             {item.question}

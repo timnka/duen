@@ -26,8 +26,8 @@ export default function Internship() {
                 <div className="w-full lg:w-1/2 px-10 py-10 flex flex-col">
                     <p className="text-xl lg:text-2xl pb-8">{ internship.subtitle }</p>
                     <div className="px-2">
-                        {internship.bulletPoints.map((curr)=>{
-                            return <BulletPoint sample={curr}></BulletPoint>
+                        {internship.bulletPoints.map((curr, index)=>{
+                            return <BulletPoint sample={curr} key={index}></BulletPoint>
                         })}
                     </div>
                 </div>

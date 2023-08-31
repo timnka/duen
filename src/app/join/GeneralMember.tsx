@@ -20,8 +20,8 @@ export default function GeneralMember() {
                 {/* BulletPoints Container */}
                 <div className="w-full lg:w-1/2">
                     {
-                        generalMember.bulletPoints.map((curr)=>{
-                            return <BulletPoint sample={curr}></BulletPoint>
+                        generalMember.bulletPoints.map((curr, index)=>{
+                            return <BulletPoint sample={curr} key={index}></BulletPoint>
                         })
                     }
                 </div>
