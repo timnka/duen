@@ -95,7 +95,7 @@ export default function Home() {
                 <p className="text-lg pr-1">Best,</p>
                 <p className="text-lg font-bold text-purple">{messageFromPresident.presidentName}</p>
               </div>
-              <p className="text-sm">{messageFromPresident.presidentCohort} Cohort</p>
+              <p className="text-sm">{messageFromPresident.presidentCohort}</p>
             </div>
           </div>
         </div>
