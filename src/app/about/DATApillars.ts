@@ -47,16 +47,15 @@ export const pillars = [
     {
         num: 1,
         name: 'Camaraderie.',
-        description: 'Insert short blurb about camaraderie here.',
+        description: 'By connecting with the various majors interested in engineering, DUEN members learn more about how engineers can collaborate to achieve larger goals. As a DUEN member, you gain tight-knit bonds with fellow engineering students and find your second family at Davis. DUEN officers can be seen grabbing bingsoo at Mandro, gymming together at the ARC, or even skiing together in Tahoe!',
         imagePath: '/about-content/pillars/cam.jpg',
         imageDesc: 'Selfie time at our 2023 grad shoot!',
         isReversed: false,
     },
-
     {
         num: 2,
         name: 'Professionalism.',
-        description: 'Insert short blurb about professionalism here.',
+        description: 'As a member of DUEN, you have the opportunity to foster your professional skills through workshops. DUEN members also gain access to our alumni network, who help connect and prepare us for industry. Furthermore, through our internship program, you learn invaluable skills that will not only prepare you to be an officer of DUEN, but as an industry professional as well.',
         imagePath: '/about-content//pillars/prof.jpg',
         imageDesc: 'Officers at DUEN formal 2023!',
         isReversed: true,
@@ -64,10 +63,10 @@ export const pillars = [
     
     {
         num: 3,
-        name: 'Philanthropy.',
-        description: 'Insert blurb about philanthropy here.',
-        imagePath: '/about-content/pillars/cs.jpg',
-        imageDesc: 'DUEN officer feeding the hungry!',
+        name: 'Community Service.',
+        description: 'We as future engineers strive to create a long-lasting impact through our innovations. One way we can do that now is by giving back to the greater Davis community. By investing our time into the community, we gain a broader perspective on how we can do more for others. ',
+        imagePath: '/about-content/pillars/philanthropy.jpg',
+        imageDesc: 'DUEN officers volunteering to do a park cleanup!',
         isReversed: false,
     }
 ]

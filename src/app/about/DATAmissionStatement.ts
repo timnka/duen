@@ -35,7 +35,7 @@ exported JSONs with the appropriate image paths and descriptions. The path shoul
 
 export const mission = {
     title: 'Our Mission',
-    statement: 'The purpose of Theta Tau is to develop and manintain a high standard of professional interest among its members and to unite them in a strong bond of fraternal fellowship.',
-    path: '/about-content/pitvipers.jpg',
-    imageDesc: 'cool guy taking selfie before leaving for school'
+    statement: 'The Davis Undergraduate Engineering Network (DUEN) fosters interdisciplinary collaboration within the engineering space. Our mission is to connect like-minded engineers with the opportunities to advance their careers.',
+    path: '/about-content/mission.jpg',
+    imageDesc: 'Some DUEN officers at the corn maze!'
 }

@@ -10,4 +10,4 @@ Change the string to be displayed to describe our alumni network and the compani
 */
 
 export const alumniNetwork = 
-'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+'After college, DUEN graduates find great success over a vast range of industries. As an officer, you’ll gain full access to our alumni network to help in preparation for internships, industry, and beyond. Listed below are some of the companies our officers have gone to work at!'

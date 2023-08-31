@@ -56,7 +56,7 @@ Practice good file management by placing files in the correct directories, using
 
 export const recruitment = {
     title: 'Recruitment',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: 'Interested in becoming an officer? Learn more about DUEN and get to know our officers through recruitment! At the beginning of every Fall and Spring quarter, we host a recruitment week packed with professional development events and social gatherings. ',
     isActive: false,
     activeRecruitment: {
         title: 'We are actively recruiting new officers for Spring 2024!',

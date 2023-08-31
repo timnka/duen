@@ -38,7 +38,7 @@ export default function About() {
             </div>
 
             {/* DUEN Pillars Panel */}
-            <p className="text-purple text-4xl md:text-5xl lg:text-6xl font-bold py-24">DUEN Pillars</p>
+            <p className="text-purple text-4xl md:text-5xl lg:text-6xl font-bold py-24">Our Core Values</p>
             <div className="flex flex-col items-center bg-gray-200">
                 {
                     pillars.map((curr) => {

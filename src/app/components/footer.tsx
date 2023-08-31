@@ -5,8 +5,12 @@ export default function Footer() {
     return (
         <div className="min-h-full w-full bg-duen-purple-500 text-duen-gold-200 text-sm md:text-base">
             <div className="flex flex-col items-center justify-center py-8">
-                <p className="font-bold text-duen-gold-400 pb-7">Any questions not listed in our FAQ? Send us an email at contact@email.com</p>
-                <Link href='https://google.com' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
+                <div className='flex'>
+                    <p className="font-bold text-duen-gold-400 pb-7">Any questions not listed in our FAQ? Send us an email at</p>
+                    <p className='font-bold text-duen-gold-200 pl-2'>duen-eboard@ucdavis.edu</p>
+                </div>
+
+                <Link href='https://forms.gle/fQVUhjTq9rYzYsuP9' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
                     Fill out our Interest Form!
                 </Link>
                 {/* Socials */}
@@ -21,7 +25,7 @@ export default function Footer() {
                         </Link>
 
                         {/* Discord */}
-                        <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" className="px-5">
+                        <Link href="https://discord.gg/BMe5xzdwJp" target="_blank" className="px-5">
                             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="gray" className="hover:fill-lavender hover:cursor-pointer hover:scale-110 transition ease-in" viewBox="0 0 16 16">
                                 <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
                             </svg>
@@ -36,14 +40,14 @@ export default function Footer() {
                     <Link href="https://www.linkedin.com/in/takumi-imanaka/" target="_blank">
                         <p className="text-lavender font-bold pl-1.5">Takumi Imanaka</p>
                     </Link>
-                    <p>, Fall 2021 Cohort</p>
+                    <p>, Founding Cohort</p>
                 </div>
 
                 {/* Regards from DUEN */}
                 <div className="flex flex-row items-center">
-                    <p>💜 With love from the officers at</p>
+                    <p>With 💜 from the officers at</p>
                     <Image src='/icons-logos/duen-gold.png' alt="duen logo" width={100} height={35} className="px-1" />
-                    <p>💜</p>
+                    
                 </div>
             </div>
 
