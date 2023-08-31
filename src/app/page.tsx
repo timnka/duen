@@ -44,7 +44,7 @@ export default function Home() {
         <div className="h-[18rem] w-full flex justify-center items-center bg-duen-purple-400 to-purple">
           <div className="text-white text-2xl md:text-4xl lg:text-5xl">
             <h1 className="font-abel text-duen-gold-300">DAVIS UNDERGRADUATE ENGINEERING NETWORK</h1>
-            <p className="text-duen-gold-500 font-normal text-lg lg:text-3xl pt-3">{'//'} a professional engineering club at UC Davis.</p>
+            <p className="text-duen-gold-500 font-normal text-lg lg:text-3xl pt-3">a professional engineering club at UC Davis.</p>
           </div>
         </div>
 
