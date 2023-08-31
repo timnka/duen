@@ -63,7 +63,7 @@ export const eboard = [
         cohort: 'Founding Cohort',
         position: 'Secretary',
         linkedin: 'https://www.linkedin.com/in/jaredura/',
-        image: '/officers/jared.jpg',
+        image: '/officers/jared.JPG',
     },
     {
         name: 'Semra Khan',
