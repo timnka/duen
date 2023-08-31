@@ -45,7 +45,7 @@ export const actives = [
         cohort: 'Fall 2022 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/lauren-gee/',
-        image: '/officers/lauren.jpg',
+        image: '/officers/lauren.JPG',
     },
     {
         name: 'Matthew Suyetani',
@@ -63,7 +63,7 @@ export const actives = [
         cohort: 'Founding Cohort',
         position: 'Committee Director, Finance',
         linkedin: '',
-        image: '/officers/kenny.jpg',
+        image: '/officers/kenny.JPG',
     },
     {
         name: 'Daphne Lee',
@@ -72,7 +72,7 @@ export const actives = [
         cohort: 'Founding Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/daphnelee123/',
-        image: '/officers/daphne.jpg',
+        image: '/officers/daphne.JPG',
     },
     {
         name: 'Adit Jain',
@@ -126,7 +126,7 @@ export const actives = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/corycadavona/',
-        image: '/officers/Cadavona_cory.jpg',
+        image: '/officers/Cadavona_Cory.jpg',
     },
     {
         name: 'Justin Kwong',
@@ -135,7 +135,7 @@ export const actives = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/justin-kwong-4855b7242/',
-        image: '/officers/Justin Kwong.jpg',
+        image: '/officers/Justin Kwong.JPG',
     },
     {
         name: 'Natalie Kuang',
@@ -144,7 +144,7 @@ export const actives = [
         cohort: 'Spring 2023 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/natalie-kuang-ucd2025/',
-        image: '/officers/Kuang_Natalie.jpg',
+        image: '/officers/Kuang_Natalie.JPG',
     },
     {
         name: 'Keshav Lodha',
@@ -153,7 +153,7 @@ export const actives = [
         cohort: 'Spring 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/keshav-lodha-0497541b7/',
-        image: '/officers/Lodha_Keshav.jpg',
+        image: '/officers/Lodha_Keshav.JPG',
     },
     {
         name: 'Newland Luu',
@@ -171,7 +171,7 @@ export const actives = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/bryan-nguyen-38b397276/',
-        image: '/officers/Nguyen_Bryan.jpg',
+        image: '/officers/Nguyen_Bryan.JPG',
     },
     {
         name: 'Kenneth Wong',

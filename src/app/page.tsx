@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       {/* Grad cover photo and typewriter. */}
-      <div className="w-full h-screen bg-cover bg-top bg-[url('/landing-content/grads1.jpg')] flex items-center  text-xl sm:text-5xl relative">
+      <div className="w-full h-screen bg-cover bg-top bg-landing flex items-center  text-xl sm:text-5xl relative">
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-3 font-normal">We are </p>
         </div>
