@@ -5,9 +5,9 @@ export default function Footer() {
     return (
         <div className="min-h-full w-full bg-duen-purple-500 text-duen-gold-200 text-sm md:text-base">
             <div className="flex flex-col items-center justify-center py-8">
-                <div className='flex'>
-                    <p className="font-bold text-duen-gold-400 pb-7">Any questions not listed in our FAQ? Send us an email at</p>
-                    <p className='font-bold text-duen-gold-200 pl-2'>duen-eboard@ucdavis.edu</p>
+                <div className='flex flex-col sm:flex-row items-center justify-center sm:pb-7'>
+                    <p className="font-bold text-duen-gold-400 pb-2 sm:pb-0">Any questions not in our FAQ? Send us an email at</p>
+                    <p className='font-bold text-duen-gold-200 sm:pl-2 pb-7 sm:pb-0'>duen-eboard@ucdavis.edu</p>
                 </div>
 
                 <Link href='https://forms.gle/fQVUhjTq9rYzYsuP9' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
