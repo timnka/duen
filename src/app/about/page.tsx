@@ -12,11 +12,12 @@ export const metadata: Metadata = {
     title: 'DUEN - About',
     description: '',
 }
-
+/*
+*/
 export default function About() {
 
     return (
-        <main className="flex flex-col items-center">
+        <main className="flex flex-col items-center ">
             {/* 'about' Banner */}
             <Banner word="about"></Banner>
 

@@ -17,7 +17,7 @@ export default function Join() {
     return (
         <div className="flex flex-col min-h-fit">
             <Banner word="join"></Banner>
-            <div className="w-full flex flex-col items-center px-16 md:px-32 lg:px-64">
+            <div className="w-full flex flex-col items-center px-2 md:px-32 lg:px-64">
                 <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple py-20">{recruitment.title}</p>
                 <p className="pb-20">{recruitment.description}</p>
 
