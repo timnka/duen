@@ -90,6 +90,6 @@ export const careerdev = [
         cohort: 'Spring 2023 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/daniel-petroski/',
-        image: '/officers/Petroski_Daniel.JPG',
+        image: '/officers/Petroski_Daniel.jpg',
     },
 ]
