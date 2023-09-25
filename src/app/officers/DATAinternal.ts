@@ -45,7 +45,7 @@ export const internal = [
         cohort: 'Spring 2023 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/vikramgopalan65/',
-        image: '/officers/Gopalan_Vikram.JPG',
+        image: '/officers/Gopalan_Vikram.jpg',
     },
     {
         name: 'Riya Prashad',
