@@ -21,7 +21,7 @@ export default function Join() {
                 <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple py-20">{recruitment.title}</p>
                 <p className="pb-20">{recruitment.description}</p>
 
-                <Link href='https://forms.gle/fQVUhjTq9rYzYsuP9' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
+                <Link href='https://tinyurl.com/duen-interest' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
                     Interest Form
                 </Link>
 
