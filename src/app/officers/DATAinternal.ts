@@ -43,7 +43,7 @@ export const internal = [
         year: 'Class of 2025',
         major: 'Materials Science and Engineering',
         cohort: 'Spring 2023 Cohort',
-        position: 'Internal Affairs',
+        position: 'Committee Director, Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/vikramgopalan65/',
         image: '/officers/Gopalan_Vikram.jpg',
     },
