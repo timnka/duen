@@ -83,4 +83,14 @@ export const marketing = [
         linkedin: 'https://www.linkedin.com/in/matthew-wang-a41093214/',
         image: '/officers/Wang_Matthew.jpg',
     },
-]
+    {
+        name: 'Willie Feng-Liu',
+        year: 'Class of 2024',
+        major: 'Electrical Engineering',
+        cohort: 'Founding Cohort',
+        position: 'Marketing',
+        linkedin: 'https://www.linkedin.com/in/williefl/',
+        image: '/officers/Liu_Willie.jpg',
+    },
+]  git config --global user.email "you@example.com"
+git config --global user.name "Your Name"

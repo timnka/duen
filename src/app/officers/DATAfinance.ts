@@ -83,4 +83,13 @@ export const finance = [
         linkedin: 'https://www.linkedin.com/in/krwong35/',
         image: '/officers/wong_kenneth.jpeg',
     },
+    {
+        name: 'Renée Bostak',
+        year: 'Class of 2024',
+        major: 'Biochemical Engineering ',
+        cohort: 'Founding Cohort',
+        position: 'Finance',
+        linkedin: 'https://www.linkedin.com/in/reneebostak/',
+        image: '/officers/Bostak_Renee.jpg',
+    },
 ]
