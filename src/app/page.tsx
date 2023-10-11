@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import group1 from './photos/cover1.jpg'
+import group1 from './photos/cover1.jpeg'
 import { Typewriter } from './components/Typewriter'
 import { messageFromPresident } from './DATAmessageFromPresident'
 import { groupPhoto } from './DATAgroupPhoto'

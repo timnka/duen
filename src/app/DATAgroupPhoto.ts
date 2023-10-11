@@ -21,6 +21,6 @@ exported JSONs with the appropriate image paths and descriptions.
 */
 
 export const groupPhoto = {
-    path: '/landing-content/cover1.jpg',
+    path: '/landing-content/cover1.jpeg',
     imageDesc:'DUEN @ Illenium Lake Tahoe 2023!'
 }
