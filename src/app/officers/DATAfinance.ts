@@ -86,7 +86,7 @@ export const finance = [
     {
         name: 'Renée Bostak',
         year: 'Class of 2024',
-        major: 'Biochemical Engineering ',
+        major: 'Biochemical Engineering',
         cohort: 'Founding Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/reneebostak/',

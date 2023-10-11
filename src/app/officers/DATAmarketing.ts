@@ -92,5 +92,4 @@ export const marketing = [
         linkedin: 'https://www.linkedin.com/in/williefl/',
         image: '/officers/Liu_Willie.jpg',
     },
-]  git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+]
