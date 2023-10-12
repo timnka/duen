@@ -99,7 +99,7 @@ export const profrel = [
         cohort: 'Founding Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/tanerkaraaslan/',
-        image: '/officers/Karaaslan_Taner.JPG',
+        image: '/officers/Karaaslan_Taner.jpg',
     },
     {
         name: 'Amanda Tu',
@@ -108,6 +108,6 @@ export const profrel = [
         cohort: 'Founding Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/amandatu2002/',
-        image: '/officers/Tu_Amanda.JPG',
+        image: '/officers/Tu_Amanda.jpg',
     },
 ]
