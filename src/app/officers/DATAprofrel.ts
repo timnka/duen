@@ -75,15 +75,6 @@ export const profrel = [
         image: '/officers/Justin Kwong.JPG',
     },
     {
-        name: 'Natalie Kuang',
-        year: 'Class of 2025',
-        major: 'Biomedical Engineering',
-        cohort: 'Spring 2023 Cohort',
-        position: 'Professional Relations',
-        linkedin: 'https://www.linkedin.com/in/natalie-kuang-ucd2025/',
-        image: '/officers/Kuang_Natalie.JPG',
-    },
-    {
         name: 'Bryan Nguyen',
         year: 'Class of 2026',
         major: 'Mechanical Engineering',
