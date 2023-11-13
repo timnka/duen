@@ -27,5 +27,5 @@ export const messageFromPresident = {
     message: 'Hi everyone! The Davis Undergraduate Engineering Network (DUEN) welcomes everyone with an interest in any engineering discipline to attend our events! As a member of DUEN, you meet other undergraduates with a variety of interests that grow to be your lifelong friends. In my past four years at Davis, I’ve met my closest friends in DUEN. I’m forever grateful to DUEN for connecting me with so many ambitious and innovative individuals. I’m proud to represent this group of officers and their work for the engineering community, and I hope to see you all at our events this year! ',
     presidentName: 'Samantha Wang',
     presidentCohort: 'Founding Cohort',
-    imagePath: '/officers/sam.png'
+    imagePath: '/officers/Wang_Samantha.JPG'
 }
