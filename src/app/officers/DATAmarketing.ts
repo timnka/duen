@@ -45,7 +45,7 @@ export const marketing = [
         cohort: 'Founding Cohort',
         position: 'Committee Director, Marketing',
         linkedin: 'https://www.linkedin.com/in/calvinchenn/',
-        image: '/officers/xiaolinMa.png',
+        image: '/officers/Ma_Xiaolin.JPG',
     },
     {
         name: 'Christopher Lo',
@@ -54,7 +54,7 @@ export const marketing = [
         cohort: 'Spring 2023 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/christopherlo34/',
-        image: '/officers/Lo_Chris.jpg',
+        image: '/officers/Lo_Chris.JPG',
     },
     {
         name: 'Kaitlyn Tran',
@@ -63,7 +63,7 @@ export const marketing = [
         cohort: 'Spring 2023 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/kaitlyn-tran-111966174/',
-        image: '/officers/Tran_Kaitlyn.jpg',
+        image: '/officers/Tran_Kaitlyn.jpeg',
     },
     {
         name: 'Jessica Trans',
@@ -72,7 +72,7 @@ export const marketing = [
         cohort: 'Spring 2023 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/jessicatrans/',
-        image: '/officers/Trans_Jessica.jpg',
+        image: '/officers/Trans_Jessica.JPG',
     },
     {
         name: 'Matthew Wang',
@@ -81,7 +81,7 @@ export const marketing = [
         cohort: 'Spring 2023 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/matthew-wang-a41093214/',
-        image: '/officers/Wang_Matthew.jpg',
+        image: '/officers/Wang_Matthew.JPG',
     },
     {
         name: 'Willie Feng-Liu',
@@ -90,6 +90,6 @@ export const marketing = [
         cohort: 'Founding Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/williefl/',
-        image: '/officers/Liu_Willie.jpg',
+        image: '/officers/Feng-Liu_Willie.JPG',
     },
 ]

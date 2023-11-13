@@ -45,7 +45,7 @@ export const profrel = [
         cohort: 'Founding Cohort',
         position: 'Committee Director, Professional Relations',
         linkedin: 'https://www.linkedin.com/in/aditjain125/',
-        image: '/officers/Adit Jain.jpg',
+        image: '/officers/Jain_Adit.JPG',
     },
     {
         name: 'Cory Cadavona',
@@ -72,7 +72,7 @@ export const profrel = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/justin-kwong-4855b7242/',
-        image: '/officers/Justin Kwong.JPG',
+        image: '/officers/Kwong_Justin.jpeg',
     },
     {
         name: 'Bryan Nguyen',

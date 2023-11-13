@@ -45,7 +45,7 @@ export const eboard = [
         cohort: 'Founding Cohort',
         position: 'President',
         linkedin: 'https://www.linkedin.com/in/samanthaswang/',
-        image: '/officers/sam.png',
+        image: '/officers/Wang_Samantha.JPG',
     },
     {
         name: 'Michael Leong',
@@ -63,7 +63,7 @@ export const eboard = [
         cohort: 'Founding Cohort',
         position: 'Secretary',
         linkedin: 'https://www.linkedin.com/in/jaredura/',
-        image: '/officers/jared.JPG',
+        image: '/officers/Ura_Jared.JPG',
     },
     {
         name: 'Semra Khan',
@@ -72,7 +72,7 @@ export const eboard = [
         cohort: 'Founding Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/semra-khan-ba9902201/',
-        image: '/officers/semra.jpg',
+        image: '/officers/Khan_Semra.JPG',
     },
     {
         name: 'Darshan Shivakumar',
@@ -81,7 +81,7 @@ export const eboard = [
         cohort: 'Founding Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/darshan-shivakumar/',
-        image: '/officers/Darshan Shivakumar.jpeg',
+        image: '/officers/Shivakumar_Darshan.JPG',
     }
     
 ]

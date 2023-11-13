@@ -45,7 +45,7 @@ export const finance = [
         cohort: 'Founding Cohort',
         position: 'Committee Director, Finance',
         linkedin: '',
-        image: '/officers/kenny.JPG',
+        image: '/officers/Bui_Kenneth.JPG',
     },
     {
         name: 'Abubakr Hadwan',
@@ -72,7 +72,7 @@ export const finance = [
         cohort: 'Spring 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/sarahsin/',
-        image: '/officers/Sin_Sarah.jpg',
+        image: '/officers/Sin_Sarah.JPG',
     },
     {
         name: 'Kenneth Wong',

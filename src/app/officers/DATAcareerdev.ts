@@ -45,7 +45,7 @@ export const careerdev = [
         cohort: 'Founding Cohort',
         position: 'Committee Director, Career Development',
         linkedin: 'https://www.linkedin.com/in/calvinchenn/',
-        image: '/officers/Calvin Chen.jpeg',
+        image: '/officers/Chen_Calvin.JPG',
     },
     {
         name: 'Joshua Winerman',
@@ -54,7 +54,7 @@ export const careerdev = [
         cohort: 'Founding Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/joshua-winerman-3b014a202/',
-        image: '/officers/Winerman_Josh.jpg',
+        image: '/officers/Winerman_Joshua.JPG',
     },
     {
         name: 'Matthew Suyetani',
@@ -63,7 +63,7 @@ export const careerdev = [
         cohort: 'Fall 2022 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/matthewsuyetani/',
-        image: '/officers/suye.jpg',
+        image: '/officers/Suyetani_Matthew.JPG',
     },
     {
         name: 'Natalie Kuang',
@@ -81,7 +81,7 @@ export const careerdev = [
         cohort: 'Spring 2023 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/gregjchang/',
-        image: '/officers/Chang_Greg.jpg',
+        image: '/officers/Chang_Greg.JPG',
     },
     {
         name: 'Daniel Petroski',
