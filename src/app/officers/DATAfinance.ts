@@ -72,7 +72,7 @@ export const finance = [
         cohort: 'Spring 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/sarahsin/',
-        image: '/officers/Sin_Sarah.JPG',
+        image: '/officers/Sin_Sarah.jpg',
     },
     {
         name: 'Kenneth Wong',

@@ -81,7 +81,7 @@ export const careerdev = [
         cohort: 'Spring 2023 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/gregjchang/',
-        image: '/officers/Chang_Greg.JPG',
+        image: '/officers/Chang_Greg.jpg',
     },
     {
         name: 'Daniel Petroski',
