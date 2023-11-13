@@ -81,6 +81,6 @@ export const internal = [
         cohort: 'Spring 2023 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/newland-luu-512805210/',
-        image: '/officers/luu_newland.jpeg',
+        image: '/officers/Luu_Newland.jpeg',
     },
 ]
