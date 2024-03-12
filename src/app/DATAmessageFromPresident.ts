@@ -24,8 +24,8 @@ exported JSONs with the appropriate image paths and descriptions.
 
 export const messageFromPresident = {
     title: 'A Message From Our President',
-    message: 'Hi everyone! The Davis Undergraduate Engineering Network (DUEN) welcomes everyone with an interest in any engineering discipline to attend our events! As a member of DUEN, you meet other undergraduates with a variety of interests that grow to be your lifelong friends. In my past four years at Davis, I’ve met my closest friends in DUEN. I’m forever grateful to DUEN for connecting me with so many ambitious and innovative individuals. I’m proud to represent this group of officers and their work for the engineering community, and I hope to see you all at our events this year! ',
-    presidentName: 'Samantha Wang',
+    message: 'Hello everyone! Davis Undergraduate Engineering Network (DUEN) is a club at UC Davis for those looking to connect with students interested in Engineering and Computer Science, interested in connecting with their peers! We host general member events, open to anyone, pertaining to our core values of Professional Development, Camaraderie, and Community Service. Through DUEN, I’ve made lifelong friends who have truly shaped my undergraduate experience. I take pride in representing this organization and am excited to expand our community further! I look forward to seeing everyone at events this term! ',
+    presidentName: 'Semra Khan',
     presidentCohort: 'Founding Cohort',
-    imagePath: '/officers/Wang_Samantha.JPG'
+    imagePath: '/officers/Khan_Semra.jpg'
 }
