@@ -63,7 +63,7 @@ export const careerdev = [
         cohort: 'Fall 2022 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/matthewsuyetani/',
-        image: '/officers/Suyetani_Matthew.jpg',
+        image: '/officers/Suyetani_Matthew.JPG',
     },
     {
         name: 'Natalie Kuang',

@@ -72,7 +72,7 @@ export const eboard = [
         cohort: 'Founding Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/semra-khan-ba9902201/',
-        image: '/officers/Khan_Semra.jpg',
+        image: '/officers/Khan_Semra.JPG',
     },
     {
         name: 'Darshan Shivakumar',
