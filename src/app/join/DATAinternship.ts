@@ -46,8 +46,8 @@ Practice good file management by placing files in the correct directories, using
 export const internship = {
     title: 'Want to become a DUEN officer?',
     subtitle: 'Go through our internship program to...',
-    imagePath: '/join-content/sp23-cohort.jpg',
-    imageDesc: 'Our Spring \'23 Cohort & their hockey table project!',
+    imagePath: '/join-content/fall23-cohort.JPG',
+    imageDesc: 'Our Fall \'23 Cohort & their airplane launcher project!',
     bulletPoints: [
         'Join a fun, welcoming group of engineers at UC Davis!',
         'Take on high impact leadership roles to keep serving the Davis engineering community.',
