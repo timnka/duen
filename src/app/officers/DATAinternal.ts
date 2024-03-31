@@ -99,7 +99,7 @@ export const internal = [
     cohort: 'Fall 2022 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/abubakr-hadwan-404aa918a/',
-    image: '/officers/Hadwan_Abubakr.JPG',
+    image: '/officers/Hadwan_Abubakr.jpg',
   },
   {
     name: 'Daphne Lee',
