@@ -59,9 +59,9 @@ export const recruitment = {
     description: 'Interested in becoming an officer? Learn more about DUEN and get to know our officers through recruitment! At the beginning of every Fall and Spring quarter, we host a recruitment week packed with professional development events and social gatherings. ',
     isActive: true,
     activeRecruitment: {
-        title: 'We are actively recruiting new officers for Fall 2023!',
+        title: 'We are actively recruiting new officers for Spring 2024!',
         activeDescription: 'Come meet and hang out with DUEN officers at our recruitment events. Date, time, and location can be seen below.',
-        flyer: '/join-content/'
+        flyer: '/join-content/sp24flyer.png'
     },
     inactiveRecruitment: 'We are not currently recruiting new officers. We open recruitment at the beginning of every Fall and Spring quarters. Follow us on Instagram @duen_ucd for updates!'
     
