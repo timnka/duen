@@ -119,4 +119,13 @@ export const internal = [
     linkedin: 'https://www.linkedin.com/in/reneebostak/',
     image: '/officers/Bostak_Renee.jpg',
   },
+  {
+    name: 'Seshnag Regoti',
+    year: 'Class of 2025',
+    major: 'Biomedical Engineering',
+    cohort: 'Fall 2023',
+    position: 'Internal Affairs',
+    linkedin: 'https://www.linkedin.com/in/seshnag-regoti/',
+    image: '/officers/Regoti_Seshnag.jpg',
+  },
 ];
