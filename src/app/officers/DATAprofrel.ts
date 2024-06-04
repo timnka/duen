@@ -63,7 +63,7 @@ export const profrel = [
     cohort: 'Fall 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/ian-marwong-49575b2b3/',
-    image: '',
+    image: '/officers/Marwong_Ian.jpg',
   },
   {
     name: 'Cory Cadavona',
@@ -91,7 +91,7 @@ export const profrel = [
     cohort: 'Fall 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/nicholas-x-3b2585159/',
-    image: '',
+    image: '/officers/Xu_Nicholas.jpg',
   },
   {
     name: 'Greg Chang',
