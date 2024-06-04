@@ -45,7 +45,7 @@ export const marketing = [
     cohort: "Fall 2023 Cohort",
     position: "Committee Director, Marketing",
     linkedin: "https://www.linkedin.com/in/vanessaguo03/",
-    image: "/officers/Guo_Vanessa.jpg",
+    image: "/officers/Guo_Vanessa.JPG",
   },
   {
     name: "Abraham Castellon",
@@ -72,7 +72,7 @@ export const marketing = [
     cohort: "Founding Cohort",
     position: "Marketing",
     linkedin: "https://www.linkedin.com/in/riya-prashad-06bb74187/",
-    image: "/officers/Riya Prashad.jpg",
+    image: "/officers/Prashad_Riya.png",
   },
   {
     name: "Jonathan Wu",

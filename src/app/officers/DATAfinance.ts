@@ -63,7 +63,7 @@ export const finance = [
     cohort: 'Fall 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/alexander-ilusorio-955819296/',
-    image: '/officers/Ilusorio_Alexander.jpg',
+    image: '/officers/Ilusorio_Alexander.png',
   },
   {
     name: 'Kenneth Wong',
@@ -81,7 +81,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/kaitlyn-tran-111966174/',
-    image: '/officers/Tran_Kaitlyn.jpeg',
+    image: '/officers/Tran_Kaitlyn.png',
   },
   {
     name: 'Christopher Lo',
@@ -117,6 +117,6 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/keshav-lodha-0497541b7/',
-    image: '/officers/Lodha_Keshav.JPG',
+    image: '/officers/Lodha_Keshav.png',
   },
 ];
