@@ -45,7 +45,7 @@ export const marketing = [
     cohort: "Fall 2023 Cohort",
     position: "Committee Director, Marketing",
     linkedin: "https://www.linkedin.com/in/vanessaguo03/",
-    image: "/officers/Guo_Vanessa.JPG",
+    image: "/officers/Guo_Vanessa.jpg",
   },
   {
     name: "Abraham Castellon",
