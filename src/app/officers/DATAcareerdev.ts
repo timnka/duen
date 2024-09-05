@@ -22,13 +22,13 @@ even missing, the program will likely crash. *************
 
 This entire project imports all photos from the 'public' directory. 
 The path prefix '/' is already set to already reference this folder.
-So, if the file 'image1.png' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
-    '/folder1/image1.png'. DO NOT USE THE PATH '/public/folder1/image1.png', IT WILL NOT WORK IF YOU DO SO.
+So, if the file 'image1.jpg' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
+    '/folder1/image1.jpg'. DO NOT USE THE PATH '/public/folder1/image1.jpg', IT WILL NOT WORK IF YOU DO SO.
 Having '/' be the prefix for the path is already recognized as referencing the 'public' directory.
 
 THIS component will pull images from the directory '/officers' in the 'public' directory.
 When updating the photos, add your desired photo in this directory, and update the
-exported JSONs with the appropriate image paths and descriptions. The path should be '/officers/[logo-file].png'.
+exported JSONs with the appropriate image paths and descriptions. The path should be '/officers/[logo-file].jpg'.
 
 **** Executive board and active officer photos will be in the same directory, the '/officers' directory. ****
 
@@ -38,41 +38,23 @@ on the webpage.
 */
 
 export const careerdev = [
-  {
-    name: 'Natalie Kuang',
+   {
+    name: 'Ian Marwong',
+    year: 'Class of 2027',
+    major: 'Computer Engineering',
+    cohort: 'Fall 2023 Cohort',
+    position: 'Committee Director, Career Development',
+    linkedin: 'https://www.linkedin.com/in/ian-marwong-49575b2b3',
+    image: '/officers/Marwong_Ian.jpg',
+  },
+    {
+    name: 'Greg Chang',
     year: 'Class of 2025',
-    major: 'Biomedical Engineering',
+    major: 'Computer Science',
     cohort: 'Spring 2023 Cohort',
-    position: 'Career Development',
-    linkedin: 'https://www.linkedin.com/in/natalie-kuang-ucd2025/',
-    image: '/officers/Kuang_Natalie.JPG',
-  },
-  {
-    name: 'Adrian Chan',
-    year: 'Class of 2026',
-    major: 'Mechanical and Aerospace Engineering',
-    cohort: 'Fall 2023 Cohort',
-    position: 'Career Development',
-    linkedin: 'https://www.linkedin.com/in/adriansc004/',
-    image: '/officers/Chan_Adrian.jpg',
-  },
-  {
-    name: 'Michelle Huo',
-    year: 'Class of 2026',
-    major: 'Mechanical Engineering',
-    cohort: 'Fall 2023 Cohort',
-    position: 'Career Development',
-    linkedin: 'https://www.linkedin.com/in/michelle-huo-667b80273/',
-    image: '/officers/Huo_Michelle.jpg',
-  },
-  {
-    name: 'Taylor Chin',
-    year: 'Class of 2026',
-    major: 'Mechanical Engineering',
-    cohort: 'Spring 2023 Cohort',
-    position: 'Career Development',
-    linkedin: 'https://www.linkedin.com/in/taylorchin2/',
-    image: '/officers/Chin_Taylor.jpeg',
+    position: 'Professional Relations',
+    linkedin: 'https://www.linkedin.com/in/gregjchang/',
+    image: '/officers/Chang_Greg.jpg',
   },
   {
     name: 'Toby Li',
@@ -84,39 +66,49 @@ export const careerdev = [
     image: '/officers/Li_Toby.jpg',
   },
   {
-    name: 'Kayla Hom',
-    year: 'Class of 2024',
-    major: 'Computer Science and Engineering',
-    cohort: 'Fall 2023 Cohort',
-    position: 'Career Development',
-    linkedin: 'https://www.linkedin.com/in/kayla-hom/',
-    image: '/officers/Hom_Kayla.jpg',
-  },
-  {
     name: 'Jeyashree Chandrahasan',
     year: 'Class of 2026',
     major: 'Biomedical Engineering',
     cohort: 'Fall 2023 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/jeyashreechandrahasan/',
-    image: '',
+    image: '/officers/Chandrahasan_Jeyashree.jpg',
   },
   {
-    name: 'Justin Kwong',
+    name: 'Alexander Ilusorio',
     year: 'Class of 2025',
-    major: 'Mechanical Engineering',
-    cohort: 'Spring 2023 Cohort',
+    major: 'Electrical Engineering',
+    cohort: 'Fall 2023 Cohort',
     position: 'Career Development',
-    linkedin: 'https://www.linkedin.com/in/justin-kwong-4855b7242/',
-    image: '/officers/Kwong_Justin.jpeg',
+    linkedin: 'https://www.linkedin.com/in/alexander-ilusorio-955819296/',
+    image: '/officers/Ilusorio_Alexander.jpg',
   },
   {
-    name: 'Kenneth Bui',
-    year: 'Class of 2024',
+    name: 'Nick Lin',
+    year: 'Class of 2026',
     major: 'Biomedical Engineering',
-    cohort: 'Founding Cohort',
+    cohort: 'Spring 2024 Cohort',
     position: 'Career Development',
-    linkedin: 'https://www.linkedin.com/in/kenneth-bui-92b9a4214/',
-    image: '/officers/Bui_Kenneth.JPG',
+    linkedin: 'https://www.linkedin.com/in/nsclin/',
+    image: '/officers/Lin_Nick.jpg',
   },
+    {
+    name: 'Cindy Shing',
+    year: 'Class of 2027',
+    major: 'Computer Science',
+    cohort: 'Spring 2024 Cohort',
+    position: 'Career Development',
+    linkedin: 'https://www.linkedin.com/in/cindy-shing-09387a304/',
+    image: '/officers/Shing_Cindy.jpg',
+  },
+  {
+    name: 'Oscar Wang',
+    year: 'Class of 2025',
+    major: 'Computer Science',
+    cohort: 'Spring 2024 Cohort',
+    position: 'Career Development',
+    linkedin: 'https://www.linkedin.com/in/wang-oscar/',
+    image: '/officers/Wang_Oscar.jpg',
+  },
+    
 ];
