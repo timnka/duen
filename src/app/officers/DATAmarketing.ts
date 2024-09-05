@@ -39,7 +39,7 @@ on the webpage.
 
 export const marketing = [
   {
-    name: "Charlie Edwwards",
+    name: "Charlie Edwards",
     year: "Class of 2026",
     major: "Computer Science",
     cohort: "Fall 2023 Cohort",
