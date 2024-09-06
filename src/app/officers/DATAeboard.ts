@@ -63,7 +63,7 @@ export const eboard = [
     cohort: 'Spring 2023 Cohort',
     position: 'Secretary',
     linkedin: 'https://www.linkedin.com/in/natalie-kuang-ucd2025/',
-    image: '/officers/Kuang_Natalie.jpg',
+    image: '/officers/Kuang_Natalie.JPG',
   },
   {
     name: 'Matthew Wang',
@@ -72,7 +72,7 @@ export const eboard = [
     cohort: 'Spring 2023 Cohort',
     position: 'Program Manager',
     linkedin: 'https://www.linkedin.com/in/matthew-wang-a41093214/',
-    image: '/officers/Wang_Matthew.JPG',
+    image: '/officers/Wang_Matthew.jpg',
   },
   {
     name: 'Chris Lo',
@@ -81,6 +81,6 @@ export const eboard = [
     cohort: 'Spring 2023 Cohort',
     position: 'Program Manager',
     linkedin: 'https://www.linkedin.com/in/christopherlo34/',
-    image: '/officers/Lo_Chris.JPG',
+    image: '/officers/Lo_Chris.jpg',
   },
 ];
