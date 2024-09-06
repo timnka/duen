@@ -46,7 +46,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Committee Director, Finance',
     linkedin: 'https://www.linkedin.com/in/keshav-lodha-0497541b7/',
-    image: '/officers/Lodha_Keshav.jpg',
+    image: '/officers/Lodha_Keshav.png',
   },
   {
     name: 'Kenneth Wong',
@@ -55,7 +55,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/krwong35/',
-    image: '/officers/wong_kenneth.jpg',
+    image: '/officers/wong_kenneth.jpeg',
   },
   {
     name: 'Richard Huang',
