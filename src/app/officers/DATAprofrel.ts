@@ -45,16 +45,7 @@ export const profrel = [
     cohort: 'Spring 2023 Cohort',
     position: 'Committee Director, Professional Relations',
     linkedin: 'https://www.linkedin.com/in/taylorchin2/',
-    image: '/officers/Chin_Taylor.JPG',
-  },
-  {
-    name: 'Adian Chen',
-    year: 'Class of 2026',
-    major: 'Aerospace Engineering',
-    cohort: 'Fall 2023 Cohort',
-    position: 'Professional Relations',
-    linkedin: 'https://www.linkedin.com/in/adriansc004',
-    image: '/officers/Chen_Adrian.JPG',
+    image: '/officers/Chin_Taylor.jpeg',
   },
   {
     name: 'Justin Kwong',
@@ -63,7 +54,7 @@ export const profrel = [
     cohort: 'Spring 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/justin-kwong-4855b7242/',
-    image: '/officers/Kwong_Justin.jpg',
+    image: '/officers/Kwong_Justin.jpeg',
   },
   {
     name: 'Cory Cadavona',
@@ -81,7 +72,7 @@ export const profrel = [
     cohort: 'Spring 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/bryan-nguyen-38b397276/',
-    image: '/officers/Nguyen_Bryan.jpg',
+    image: '/officers/Nguyen_Bryan.JPG',
   },
   {
     name: 'Vikram Gopalan',
@@ -91,6 +82,15 @@ export const profrel = [
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/vikramgopalan65/',
     image: '/officers/Gopalan_Vikram.jpg',
+  },
+  {
+    name: 'Adian Chan',
+    year: 'Class of 2026',
+    major: 'Aerospace Engineering',
+    cohort: 'Fall 2023 Cohort',
+    position: 'Professional Relations',
+    linkedin: 'https://www.linkedin.com/in/adriansc004',
+    image: '/officers/Chan_Adrian.jpg',
   },
   {
     name: 'Braeden Wagner',
