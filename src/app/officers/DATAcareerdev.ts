@@ -81,7 +81,7 @@ export const careerdev = [
     cohort: 'Fall 2023 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/alexander-ilusorio-955819296/',
-    image: '/officers/Ilusorio_Alexander.jpg',
+    image: '/officers/Ilusorio_Alexander.png',
   },
   {
     name: 'Nick Lin',
