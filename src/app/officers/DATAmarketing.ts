@@ -45,7 +45,7 @@ export const marketing = [
     cohort: "Fall 2023 Cohort",
     position: "Committee Director, Marketing",
     linkedin: "https://www.linkedin.com/in/charles-edwards-7540a12a7/",
-    image: "/officers/Edwards_Charlie.jpg",
+    image: "/officers/Edwards_Charles.jpg",
   },
   {
     name: "Jonathan Wu",
