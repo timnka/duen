@@ -22,13 +22,13 @@ even missing, the program will likely crash. *************
 
 This entire project imports all photos from the 'public' directory. 
 The path prefix '/' is already set to already reference this folder.
-So, if the file 'image1.png' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
-    '/folder1/image1.png'. DO NOT USE THE PATH '/public/folder1/image1.png', IT WILL NOT WORK IF YOU DO SO.
+So, if the file 'image1.jpg' is in the 'folder1' directory in the 'public' directory, reference this file with the file path:
+    '/folder1/image1.jpg'. DO NOT USE THE PATH '/public/folder1/image1.jpg', IT WILL NOT WORK IF YOU DO SO.
 Having '/' be the prefix for the path is already recognized as referencing the 'public' directory.
 
 THIS component will pull images from the directory '/officers' in the 'public' directory.
 When updating the photos, add your desired photo in this directory, and update the
-exported JSONs with the appropriate image paths and descriptions. The path should be '/officers/[logo-file].png'.
+exported JSONs with the appropriate image paths and descriptions. The path should be '/officers/[logo-file].jpg'.
 
 **** Executive board and active officer photos will be in the same directory, the '/officers' directory. ****
 
@@ -38,32 +38,15 @@ on the webpage.
 */
 
 export const finance = [
+
   {
-    name: 'Matthew Wang',
+    name: 'Keshav Lodha',
     year: 'Class of 2025',
-    major: 'Computer Engineering',
+    major: 'Computer Science and Statistics',
     cohort: 'Spring 2023 Cohort',
     position: 'Committee Director, Finance',
-    linkedin: 'https://www.linkedin.com/in/matthew-wang-a41093214/',
-    image: '/officers/Wang_Matthew.jpg',
-  },
-  {
-    name: 'Shana Chen',
-    year: 'Class of 2026',
-    major: 'Systems and Synthetic Biology',
-    cohort: 'Fall 2023 Cohort',
-    position: 'Finance',
-    linkedin: 'https://www.linkedin.com/in/shana-chen-7b853627b/',
-    image: '/officers/Chen_Shana.jpg',
-  },
-  {
-    name: 'Alexander Ilusorio',
-    year: 'Class of 2025',
-    major: 'Electrical Engineering',
-    cohort: 'Fall 2023 Cohort',
-    position: 'Finance',
-    linkedin: 'https://www.linkedin.com/in/alexander-ilusorio-955819296/',
-    image: '/officers/Ilusorio_Alexander.png',
+    linkedin: 'https://www.linkedin.com/in/keshav-lodha-0497541b7/',
+    image: '/officers/Lodha_Keshav.jpg',
   },
   {
     name: 'Kenneth Wong',
@@ -72,51 +55,43 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/krwong35/',
-    image: '/officers/wong_kenneth.jpeg',
+    image: '/officers/wong_kenneth.jpg',
   },
   {
-    name: 'Kaitlyn Tran',
-    year: 'Class of 2024',
-    major: 'Civil Engineering',
-    cohort: 'Spring 2023 Cohort',
+    name: 'Richard Huang',
+    year: 'Class of 2026',
+    major: 'Computer Science and Engineering',
+    cohort: 'Spring 2024 Cohort',
     position: 'Finance',
-    linkedin: 'https://www.linkedin.com/in/kaitlyn-tran-111966174/',
-    image: '/officers/Tran_Kaitlyn.png',
+    linkedin: 'https://www.linkedin.com/in/ridhuang/',
+    image: '/officers/Huang_Richard.jpg',
   },
   {
-    name: 'Christopher Lo',
-    year: 'Class of 2025',
-    major: 'Computer Science and Economics',
-    cohort: 'Spring 2023 Cohort',
+    name: 'Christopher Ordaz',
+    year: 'Class of 2027',
+    major: 'Computer Science and Engineering',
+    cohort: 'Spring 2024 Cohort',
     position: 'Finance',
-    linkedin: 'https://www.linkedin.com/in/christopherlo34/',
-    image: '/officers/Lo_Chris.jpg',
+    linkedin: 'https://www.linkedin.com/in/christopher-ordaz-44865429a/',
+    image: '/officers/Ordaz_Christopher.jpg',
   },
   {
-    name: 'Michael Leong',
-    year: 'Class of 2024',
-    major: 'Biochemical Engineering',
-    cohort: 'Founding Cohort',
+    name: 'Erika Gosti',
+    year: 'Class of 2027',
+    major: 'Computer Science',
+    cohort: 'Spring 2024 Cohort',
     position: 'Finance',
-    linkedin: 'https://www.linkedin.com/in/mtleong/',
-    image: '/officers/Michael Leong.png',
+    linkedin: 'https://www.linkedin.com/in/erika-gosti/',
+    image: '/officers/Gosti_Erika.jpg',
   },
   {
-    name: 'Daniel Petroski',
-    year: 'Class of 2024',
-    major: 'Civil Engineering',
-    cohort: 'Spring 2023 Cohort',
+    name: 'Nicholas Kim',
+    year: 'Class of 2026',
+    major: 'Computer Engineering',
+    cohort: 'Spring 2024 Cohort',
     position: 'Finance',
-    linkedin: 'https://www.linkedin.com/in/daniel-petroski/',
-    image: '/officers/Petroski_Daniel.jpg',
+    linkedin: 'https://www.linkedin.com/in/nicholas-kim-0017ba274/',
+    image: '/officers/Kim_Nicholas.jpg',
   },
-  {
-    name: 'Keshav Lodha',
-    year: 'Class of 2025',
-    major: 'Computer Science and Statistics',
-    cohort: 'Spring 2023 Cohort',
-    position: 'Finance',
-    linkedin: 'https://www.linkedin.com/in/keshav-lodha-0497541b7/',
-    image: '/officers/Lodha_Keshav.png',
-  },
+
 ];
