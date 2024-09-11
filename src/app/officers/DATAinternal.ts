@@ -90,7 +90,7 @@ export const internal = [
     cohort: 'Spring 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: '',
-    image: '/officers/Chen_Cody.png',
+    image: '/officers/Chen_Cody.jpg',
   },
   {
     name: 'Etienne Rousseau',
@@ -99,16 +99,16 @@ export const internal = [
     cohort: 'Spring 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/etiennerousseau1/',
-    image: '/officers/Rousseau_Etienne.png',
+    image: '/officers/Rousseau_Etienne.jpg',
   },
   {
-    name: 'Hado Beveridge Eguino',
+    name: 'Hadi Beveridge Eguino',
     year: 'Class of 2025',
     major: 'Civil Engineering',
     cohort: 'Spring 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/hadi-beveridge-eguino/',
-    image: '/officers/Eguino_Hadi.png',
+    image: '/officers/Eguino_Hadi.jpg',
   },
  
 ];
