@@ -81,7 +81,7 @@ export const marketing = [
     cohort: "Spring 2024 Cohort",
     position: "Marketing",
     linkedin: "https://www.linkedin.com/in/simone-robson1/",
-    image: "/officers/Robson_Simone.png",
+    image: "/officers/Robson_Simone.jpg",
   },
   {
     name: "Jaclyn Lee",
