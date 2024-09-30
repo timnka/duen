@@ -20,7 +20,7 @@ export default function Home() {
         <div className="w-6/12 flex justify-end">
           <p className="text-white pr-2 sm:pr-3 font-normal">We are </p>
         </div>
-        <div className='text-duen-purple-100 font-bold'>
+        <div className='text-duen-gold-100 font-bold'>
           <Typewriter
             words={['lifelong friends.', 'passionate.', 'adventurers.', 'engineers!']}
             loop={false}
