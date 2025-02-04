@@ -37,50 +37,88 @@ on the webpage.
 
 */
 
+import { Major_Mono_Display } from "next/font/google";
+
 export const eboard = [
+  // {
+  //   name: ''
+  //   year:
+  //   major:
+  //   cohort:
+  //   position:
+  //   linkedin:
+  //   image:
+  // },
   {
-    name: 'Darshan Shivakumar',
-    year: 'Class of 2024',
-    major: 'Computer Science and Statistics',
-    cohort: 'Founding Cohort',
+    name: 'Aliya Abla',
+    year: 'Class of 2025',
+    major: 'Biological Systems Engineering',
+    cohort: 'Fall 2023 Cohort',
     position: 'President',
-    linkedin: 'https://www.linkedin.com/in/darshan-shivakumar/',
-    image: '/officers/Shivakumar_Darshan.JPG',
+    linkedin: 'https://www.linkedin.com/in/aliya-abla/',
+    image: '/officers/Abla_Aliya.jpg',
   },
+  {
+    name: "Shruti Kakar",
+    year: "Class of 2025",
+    major: "Computer Science",
+    cohort: "Fall 2023 Cohort",
+    position: "Vice President",
+    linkedin: "https://www.linkedin.com/in/kakarshruti",
+    image: "/officers/Kakar_Shruti.jpg",
+  },
+  {
+    name: 'Ian Marwong',
+    year: 'Class of 2027',
+    major: 'Computer Engineering',
+    cohort: 'Fall 2023 Cohort',
+    position: 'Secretary',
+    linkedin: 'https://www.linkedin.com/in/ian-marwong-49575b2b3',
+    image: '/officers/Marwong_Ian.jpg',
+  },
+  // {
+  //   name: 'Natalie Kuang',
+  //   year: 'Class of 2024',
+  //   major: 'Biomedical Engineering',
+  //   cohort: 'Spring 2023 Cohort',
+  //   position: 'Secretary',
+  //   linkedin: 'https://www.linkedin.com/in/natalie-kuang-ucd2025/',
+  //   image: '/officers/Kuang_Natalie.JPG',
+  // },
   {
     name: 'Seshnag Regoti',
     year: 'Class of 2024',
     major: 'Food Science and Technology',
     cohort: 'Fall 2023 Cohort',
-    position: 'Vice President',
+    position: 'Program Manager',
     linkedin: 'https://www.linkedin.com/in/seshnag-regoti/',
     image: '/officers/Regoti_Seshnag.jpg',
   },
+  // {
+  //   name: 'Matthew Wang',
+  //   year: 'Class of 2024',
+  //   major: 'Managerial Economics',
+  //   cohort: 'Spring 2023 Cohort',
+  //   position: 'Program Manager',
+  //   linkedin: 'https://www.linkedin.com/in/matthew-wang-a41093214/',
+  //   image: '/officers/Wang_Matthew.jpg',
+  // },
+  // {
+  //   name: 'Chris Lo',
+  //   year: 'Class of 2024',
+  //   major: 'Computer Science and Economics',
+  //   cohort: 'Spring 2023 Cohort',
+  //   position: 'Program Manager',
+  //   linkedin: 'https://www.linkedin.com/in/christopherlo34/',
+  //   image: '/officers/Lo_Chris.jpg',
+  // },
   {
-    name: 'Natalie Kuang',
-    year: 'Class of 2024',
-    major: 'Biomedical Engineering',
-    cohort: 'Spring 2023 Cohort',
-    position: 'Secretary',
-    linkedin: 'https://www.linkedin.com/in/natalie-kuang-ucd2025/',
-    image: '/officers/Kuang_Natalie.JPG',
-  },
-  {
-    name: 'Matthew Wang',
-    year: 'Class of 2024',
-    major: 'Managerial Economics',
-    cohort: 'Spring 2023 Cohort',
-    position: 'Program Manager',
-    linkedin: 'https://www.linkedin.com/in/matthew-wang-a41093214/',
-    image: '/officers/Wang_Matthew.jpg',
-  },
-  {
-    name: 'Chris Lo',
-    year: 'Class of 2024',
-    major: 'Computer Science and Economics',
-    cohort: 'Spring 2023 Cohort',
-    position: 'Program Manager',
-    linkedin: 'https://www.linkedin.com/in/christopherlo34/',
-    image: '/officers/Lo_Chris.jpg',
+    name: "Jonathan Wu",
+    year: "Class of 2026",
+    major: "Electrical Engineering",
+    cohort: "Fall 2023 Cohort",
+    position: "Program Manager",
+    linkedin: "https://www.linkedin.com/in/jonathan-wu-link/",
+    image: "/officers/Wu_Jonathan.jpg",
   },
 ];

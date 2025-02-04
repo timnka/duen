@@ -10,9 +10,10 @@ export default function Footer() {
                     <p className='font-bold text-duen-gold-200 sm:pl-2 pb-7 sm:pb-0'>duen-eboard@ucdavis.edu</p>
                 </div>
 
-                <Link href='https://forms.gle/SVeMU3Jdzg65MTQX8 target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
+                <Link href="https://forms.gle/SVeMU3Jdzg65MTQX8" target="_blank" className="bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300">
                     Fill out our Interest Form!
                 </Link>
+
                 {/* Socials */}
                 <div className="text-lg flex justify-center items-center">
                     <p className="font-bold px-5 py-7">Socials</p>
