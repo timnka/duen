@@ -45,7 +45,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Committee Director, Professional Relations',
     linkedin: 'https://www.linkedin.com/in/desiree-poon-86b334328/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Adrian Chan',
@@ -72,7 +72,7 @@ export const profrel = [
     cohort: 'Fall 2023 Cohort',
     position: 'Professional Relations',
     linkedin: '',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Han_KD.jpeg',
   },
   {
     name: 'Nina Dao',
@@ -81,7 +81,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/nina-dao-98a034272/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Dao_Nina.jpeg',
   },
   {
     name: 'Paige Phung',
@@ -90,7 +90,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/paige-phung/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Phung_Paige.jpg',
   },
   {
     name: 'Sukhman Kahlon',
@@ -99,7 +99,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/sukhmankahlon/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Kanvar Austin Sidhu',
@@ -108,7 +108,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/kanvar-austin-sidhu/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   // {
   //   name: 'Cory Cadavona',

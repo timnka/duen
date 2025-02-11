@@ -90,7 +90,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/naomi-petersen-1bb361334/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Petersen_Naomi.jpeg',
   },
   {
     name: "Michelle Huo",
@@ -108,17 +108,8 @@ export const internal = [
     cohort: "Fall 2024 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/sanjithiype/",
-    image: "/officers/Chen_Cody.jpg",
+    image: "/officers/Iype_Sanjith.png",
   },
-  // {
-  //   name: 'Cody Chen',
-  //   year: 'Class of 2027',
-  //   major: 'Computer Science and Engineering',
-  //   cohort: 'Spring 2024 Cohort',
-  //   position: 'Internal Affairs',
-  //   linkedin: '',
-  //   image: '/officers/Chen_Cody.jpg',
-  // },
   {
     name: 'Nicholas Xu',
     year: 'Class of 2025',

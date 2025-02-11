@@ -45,7 +45,7 @@ export const careerdev = [
     cohort: 'Fall 2024 Cohort',
     position: 'Committee Director, Career Development',
     linkedin: 'https://linkedin.com/in/ben-busche/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Busche_Ben.jpg',
   },
   {
     name: 'Fabrizio Lazo Gutierrez',
@@ -126,7 +126,7 @@ export const careerdev = [
     cohort: 'Fall 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/marvin-vasquez-189110184/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Vasquez_Marvin.jpeg',
   },
   {  
     name: 'Lucas Fedronic',

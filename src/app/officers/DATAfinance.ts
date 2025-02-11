@@ -118,7 +118,7 @@ export const finance = [
     cohort: 'Fall 2024 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/nicholas-kim-0017ba274/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: "Sumain Chiv",
