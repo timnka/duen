@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Home() {
 
   return (
-    <div>
+    <main className="bg-ink text-white">
       {/* Grad cover photo and typewriter. */}
       <div className="w-full h-screen bg-cover bg-top bg-landing flex items-center  text-xl sm:text-5xl relative">
         <div className="w-6/12 flex justify-end">
@@ -32,38 +32,36 @@ export default function Home() {
         </div>
 
         <div className='absolute w-full h-screen flex items-center justify-center pt-36'>
-          <Link href='/join' className='bg-purple  text-white text-base md:text-2xl px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
+          <Link href='/join' className='bg-duen-gold-300 text-ink text-base md:text-2xl px-8 py-2 rounded-lg border-2 border-duen-gold-300 transition duration-300 hover:bg-transparent hover:text-duen-gold-300 hover:cursor-pointer'>
             LEARN MORE
           </Link>
         </div>
       </div>
 
       {/* Parent component for duen banner, general panel, and message from president. */}
-      <div className="text-black flex-col justify-center items-center w-full">
-        {/* Purple DUEN Banner font-abel*/}
-
-        <div className="w-full flex flex-col justify-center items-center text-white text-xl md:text-4xl lg:text-5xl px-2 py-24 bg-duen-purple-400">
-          <h1 className="text-duen-gold-300">Davis Undergraduate Engineering Network</h1>
-          <p className="text-duen-gold-500 font-normal text-lg lg:text-2xl pt-5">a professional engineering club at UC Davis.</p>
+      <div className="flex-col justify-center items-center w-full">
+        {/* DUEN Banner */}
+        <div className="w-full flex flex-col justify-center items-center text-white text-xl md:text-4xl lg:text-5xl px-2 py-24 bg-duen-gold-300">
+          <h1 className="text-ink">Davis Undergraduate Engineering Network</h1>
+          <p className="text-ink/70 font-normal text-lg lg:text-2xl pt-5">a professional engineering club at UC Davis.</p>
         </div>
 
-
         {/* About Panel Container */}
-        <div className="min-h-min w-full flex flex-col lg:flex-row items-center bg-white">
+        <div className="min-h-min w-full flex flex-col lg:flex-row items-center bg-warm-gray">
           {/* General Text*/}
           <div className="w-full lg:w-1/2 h-full text-3xl sm:text-4xl">
             {/* General Text Container */}
             <div className="mx-8 sm:mx-16 py-32 lg:py-0 shrink">
               <div className="flex pb-3">
-                <p className="font-bold text-purple pr-3">Engineers</p>
-                <p>by title,</p>
+                <p className="font-bold text-duen-gold-300 pr-3">Engineers</p>
+                <p className="text-duen-gold-100">by title,</p>
               </div>
 
               <div className="flex pb-14">
-                <p className="font-bold text-purple pr-3">Family</p>
-                <p>by choice.</p>
+                <p className="font-bold text-duen-gold-300 pr-3">Family</p>
+                <p className="text-duen-gold-100">by choice.</p>
               </div>
-              <p className="text-base">DUEN is a close-knit group of ambitious engineers, and we strive to foster friendships that will last a lifetime. We are constantly learning, growing, and bonding as friends and as professionals.</p>
+              <p className="text-base text-[#8A7F72] leading-relaxed">DUEN is a close-knit group of ambitious engineers, and we strive to foster friendships that will last a lifetime. We are constantly learning, growing, and bonding as friends and as professionals.</p>
             </div>
           </div>
 
@@ -77,9 +75,9 @@ export default function Home() {
         </div>
 
         {/* Message from Our President */}
-        <div className="w-full h-min  flex flex-col justify-center items-center text-black bg-gray-200 py-20">
+        <div className="w-full h-min flex flex-col justify-center items-center bg-ink py-20">
           {/* Title */}
-          <p className="text-purple font-bold text-3xl lg:text-5xl">{messageFromPresident.title}</p>
+          <p className="text-duen-gold-300 font-bold text-3xl lg:text-5xl">{messageFromPresident.title}</p>
 
           {/* photo and message */}
           <div className="flex flex-col lg:flex-row w-full pt-20 flex justify-center items-center">
@@ -90,16 +88,16 @@ export default function Home() {
 
             {/* President Message and Signature */}
             <div className="w-full px-8 md:px-16 py-12 lg:py-0 max-w-lg">
-              <p className="text-base pb-8">{messageFromPresident.message}</p>
+              <p className="text-base text-[#8A7F72] leading-relaxed pb-8">{messageFromPresident.message}</p>
               <div className="flex">
-                <p className="text-lg pr-1">Best,</p>
-                <p className="text-lg font-bold text-purple">{messageFromPresident.presidentName}</p>
+                <p className="text-lg pr-1 text-duen-gold-100">Best,</p>
+                <p className="text-lg font-bold text-duen-gold-300">{messageFromPresident.presidentName}</p>
               </div>
-              <p className="text-base">{messageFromPresident.presidentCohort}</p>
+              <p className="text-base text-[#8A7F72]">{messageFromPresident.presidentCohort}</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   )
 }

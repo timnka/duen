@@ -15,38 +15,50 @@ export default function Join() {
     let recruiting = false
 
     return (
-        <div className="flex flex-col min-h-fit">
-            <Banner word="join"></Banner>
-            <div className="w-full flex flex-col items-center px-2 md:px-32 lg:px-64">
-                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple py-20">{recruitment.title}</p>
-                <p className="pb-20">{recruitment.description}</p>
+        <>
+            <div className="bg-ink text-white">
+                {/* Hero Section */}
+                <section className="bg-ink px-8 md:px-16 pt-24 pb-16 md:pt-32 md:pb-20 relative overflow-hidden">
+                    {/* Background text */}
+                    <div className="absolute top-16 right-8 text-[14rem] font-light text-duen-gold-300/5 tracking-tight italic pointer-events-none whitespace-nowrap select-none">
+                    JOIN
+                    </div>
+                    <div className="max-w-7xl mx-auto relative z-10">
+                    <div className="flex items-baseline gap-8 mb-6">
+                        <p className="font-mono text-xs tracking-widest text-white/40 uppercase">
+                            Recruitment
+                        </p>
+                    </div>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-duen-gold-100 tracking-tight leading-tight max-w-2xl">
+                        Become an Officer
+                    </h1>
+                    <p className="text-lg md:text-xl font-light text-[#8A7F72] leading-relaxed max-w-[55ch] mt-6">
+                        Interested in becoming an officer? Learn more about DUEN and get to know our officers through recruitment!
+                    </p>
+                    </div>
+                </section>
 
-                <Link href='https://forms.gle/AHsPhLmgBUxxZw2Q7' target="_blank" className='bg-purple text-white px-8 py-2 rounded-lg border-2 border-purple transition duration-300 hover:border-duen-purple-500 hover:cursor-pointer hover:text-duen-gold-300'>
-                    Officer Application
-                </Link>
+                <section className="bg-warm-gray py-10 md:py-30 overflow-hidden">
+                    <div className="w-full flex flex-col items-center pt-10">
+                        {
+                            recruitment.isActive ?
+                                <div className="flex flex-col items-center">
+                                    <div className="flex flex-col items-center py-10">
+                                        <p className="font-bold text-2xl">{recruitment.activeRecruitment.title}</p>
+                                        <p className="pt-5">{recruitment.activeRecruitment.activeDescription}</p>
+                                    </div>
 
-                <div className="w-full flex flex-col items-center pt-10">
-                    {
-                        recruitment.isActive ?
-                            <div className="flex flex-col items-center">
-                                <div className="flex flex-col items-center py-10">
-                                    <p className="font-bold text-2xl">{recruitment.activeRecruitment.title}</p>
-                                    <p className="pt-5">{recruitment.activeRecruitment.activeDescription}</p>
+                                    <Image src={recruitment.activeRecruitment.flyer} width={400} height={400} alt="flyer"></Image>
                                 </div>
-
-                                <Image src={recruitment.activeRecruitment.flyer} width={400} height={400} alt="flyer"></Image>
-                            </div>
-                            :
-                            <div className="w-2/3 font-bold bg-gray-300 rounded-lg py-5 px-3">
-                                {recruitment.inactiveRecruitment}
-                            </div>
-                    }
-                </div>
-
-                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple py-20">Join us through either of these programs...</p>
-                <TabComponent></TabComponent>
-
+                                :
+                                <div className="w-2/3 font-bold bg-gray-300 rounded-lg py-5 px-3">
+                                    {recruitment.inactiveRecruitment}
+                                </div>
+                        }
+                    </div>
+                    <TabComponent></TabComponent>
+                </section>
             </div>
-        </div>
+        </>
     )
 }

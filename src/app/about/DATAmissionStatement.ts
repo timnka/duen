@@ -36,6 +36,6 @@ exported JSONs with the appropriate image paths and descriptions. The path shoul
 export const mission = {
     title: 'Our Mission',
     statement: 'The Davis Undergraduate Engineering Network (DUEN) fosters interdisciplinary collaboration within the engineering space. Our mission is to connect like-minded engineers with the opportunities to advance their careers.',
-    path: '/about-content/mission.jpg',
-    imageDesc: 'Some DUEN officers at the corn maze!'
+    path: '/about-content/engineering.jpg',
+    imageDesc: 'The Spring 2025 cohort presents their design project!'
 }

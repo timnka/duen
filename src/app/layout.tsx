@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   description: 'Davis Undergraduate Engineering Network',
 }
 
+export const viewport = {
+  width: 'device-width' as const,
+  initialScale: 1,
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -38,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${abel.variable} ${teko.variable}`}>
+      <body className={`${poppins.variable} ${abel.variable} ${teko.variable} bg-ink text-duen-gold-100 min-h-screen`}>
 
         <div className="font-poppins">
           <NavBar></NavBar>

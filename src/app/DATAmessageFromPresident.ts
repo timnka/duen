@@ -25,7 +25,7 @@ exported JSONs with the appropriate image paths and descriptions.
 export const messageFromPresident = {
     title: 'A Message From Our President',
     message: 'Hello everyone! Davis Undergraduate Engineering Network (DUEN) is a club at UC Davis for those looking to connect with students interested in Engineering and Computer Science, interested in connecting with their peers! As president, I aim to foster a strong sense of camaraderie and professionalism within the club by creating engaging opportunities for members to collaborate, grow their skills, and connect meaningfully, both socially and professionally. ',
-    presidentName: 'Etienne Rousseau',
-    presidentCohort: 'Fall 2025',
-    imagePath: '/officers/Rousseau_Etienne.jpg'
+    presidentName: 'Sanjith Iype',
+    presidentCohort: 'Winter 2026',
+    imagePath: '/officers/Iype_Sanjith.jpeg'
 }

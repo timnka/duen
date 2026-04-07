@@ -1,78 +1,133 @@
-import Banner from '../components/banner'
+import Hero from '../components/Hero'
 import Image from 'next/image'
-import Pillar from '@/app/about/pillar'
+import PillarGrid from '../components/PillarGrid'
 import { companies } from './DATAcompanies'
 import { pillars } from './DATApillars'
 import { mission } from './DATAmissionStatement'
 import { alumniNetwork } from './DATAalumniNetwork'
 import CompanyBadge from '@/app/about/CompanyBadge'
+import LogoLoop from '../components/LogoLoop'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'DUEN - About',
     description: '',
 }
-/*
-*/
+
 export default function About() {
-
     return (
-        <main className="flex flex-col items-center ">
-            {/* 'about' Banner */}
-            <Banner word="about"></Banner>
+        <main className="bg-ink text-white">
+            {/* Hero Section */}
+            <Hero
+                eyebrow="Davis Undergraduate Engineering Network"
+                title="Engineering futures together"
+                description="An interdisciplinary community connecting UC Davis engineers with the people, skills, and opportunities that shape careers."
+                imagePath={mission.path}
+                imageAlt={mission.imageDesc}
+            />
 
-            {/* DUEN Mission Panel */}
-            <div className="w-full min-h-fit flex flex-col md:px-16 lg:px-32 bg-duen-white py-20">
-                <div className="flex flex-col lg:flex-row items-center">
-                    {/* Mission Photo */}
-                    <div className="w-full lg:w-1/2 min-h-fit px-5">
-                        <div className="h-full flex justify-center items-center object-scale-down overflow-hidden relative group rounded-lg">
-                            <p className="absolute text-2xl text-white z-10 invisible group-hover:visible">{mission.imageDesc}</p>
-                            <Image src={mission.path} width={800} height={800} alt="duen group photo" objectFit={'contain'} className="group-hover:brightness-50 group-hover:scale-110 transition duration-500 cursor-pointer z-0"></Image>
-                        </div>
+            {/* Mission Section - Gold Strip */}
+            <section className="bg-duen-gold-300 px-8 md:px-16 py-12 md:py-20">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-7xl mx-auto">
+                    <div>
+                        <p className="font-mono text-xs tracking-widest text-ink/50 uppercase mb-2">
+                            Our Purpose
+                        </p>
+                        <p className="text-base font-semibold text-ink tracking-wide">
+                            Mission Statement
+                        </p>
                     </div>
-                    <div className="w-full lg:w-1/2 px-5">
-                        <p className="font-bold text-purple pt-16 pb-8 text-4xl md:text-5xl lg:text-6xl">{mission.title}</p>
-                        <p className="py-5">{mission.statement}</p>
+                    <div className="md:col-span-2">
+                        <p className="text-xl md:text-2xl font-light leading-relaxed text-ink italic">
+                            {mission.statement}
+                        </p>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            {/* DUEN Pillars Panel */}
-            <p className="text-purple text-4xl md:text-5xl lg:text-6xl font-bold py-24">Our Core Values</p>
-            <div className="flex flex-col items-center bg-gray-200">
-                {
-                    pillars.map((curr) => {
-                        return <Pillar
-                            key={curr.name}
-                            num={curr.num}
-                            name={curr.name}
-                            description={curr.description}
-                            imagePath={curr.imagePath}
-                            imageDesc={curr.imageDesc}
-                            isReversed={curr.isReversed}
-                        ></Pillar>
-                    })
-                }
-            </div>
+            {/* Pillars Section */}
+            <section className="bg-warm-gray px-8 md:px-16 py-16 md:py-20">
+                <div className="max-w-7xl mx-auto">
+                    <div className="flex items-baseline gap-8 mb-12 md:mb-16">
+                        <span className="font-mono text-xs tracking-widest text-duen-gold-300">
+                            02 —
+                        </span>
+                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-duen-gold-100 tracking-tight">
+                            Our Core Values
+                        </h2>
+                    </div>
+                    <PillarGrid pillars={pillars} />
+                </div>
+            </section>
 
-            {/* Alumni Network */}
-            <p className="text-purple text-4xl md:text-5xl lg:text-6xl font-bold py-24">Alumni Network</p>
-            <div className="w-full flex flex-col items-center pb-20">
-                <div className="flex flex-col justify-center items-center px-16 md:px-32 lg:px-64">
-                    <p className="pb-20">{alumniNetwork}</p>
+            {/* Alumni Network Section */}
+            <section className="bg-ink px-8 md:px-16 py-16 md:py-20 relative overflow-hidden">
+                {/* Background text */}
+                <div className="absolute top-16 -right-8 text-[14rem] font-light text-duen-gold-300/5 tracking-tight italic pointer-events-none whitespace-nowrap select-none">
+                    ALUMNI
                 </div>
-                <div className="flex flex-wrap justify-center px-20">
-                    {
-                        companies.map((item) => {
-                            return <div key={item.name} className="px-3 py-3">
-                                <CompanyBadge name={item.name} path={item.path}></CompanyBadge>
-                            </div>
-                        }
-                        )
-                    }
+                
+                <div className="max-w-7xl mx-auto relative z-10">
+                    <div className="flex items-baseline gap-8 mb-6">
+                        <span className="font-mono text-xs tracking-widest text-duen-gold-300">
+                            03 —
+                        </span>
+                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-duen-gold-100 tracking-tight">
+                            Alumni Network
+                        </h2>
+                    </div>
+                    
+                    <p className="text-lg md:text-xl font-light text-[#8A7F72] leading-relaxed max-w-[55ch] mb-12 md:mb-16">
+                        {alumniNetwork}
+                    </p>
+
+                    {/* Logo Ticker */}
+                    <div className="w-full overflow-hidden mask-gradient">
+                        <LogoLoop 
+                            speed={8}
+                            direction="left"
+                            gap="gap-12 md:gap-16"
+                            className="py-4"
+                        >
+                            {companies.map((item) => (
+                                <div key={item.name} className="px-2">
+                                    <CompanyBadge name={item.name} path={item.path}></CompanyBadge>
+                                </div>
+                            ))}
+                        </LogoLoop>
+                    </div>
                 </div>
-            </div>
+            </section>
+
+            {/* CTA Section */}
+            <section className="bg-duen-gold-300 px-8 md:px-16 py-16 md:py-20">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+                    <div>
+                        <p className="font-mono text-xs tracking-widest text-ink/50 uppercase mb-4">
+                            Get Involved
+                        </p>
+                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-ink leading-tight tracking-tight">
+                            Ready to become<br />part of DUEN?
+                        </h2>
+                    </div>
+                    <div className="flex flex-col sm:flex-row gap-4 flex-shrink-0">
+                        <a 
+                            href="https://forms.gle/AHsPhLmgBUxxZw2Q7" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-mono text-xs tracking-widest uppercase px-8 py-4 border border-ink bg-ink text-duen-gold-300 hover:bg-transparent hover:text-ink transition-all duration-300 text-center"
+                        >
+                            Interest Form
+                        </a>
+                        <a 
+                            href="mailto:duen-eboard@ucdavis.edu"
+                            className="font-mono text-xs tracking-widest uppercase px-8 py-4 border border-ink text-ink hover:bg-ink hover:text-duen-gold-300 transition-all duration-300 text-center"
+                        >
+                            Email Us
+                        </a>
+                    </div>
+                </div>
+            </section>
         </main>
     )
 }

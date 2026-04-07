@@ -7,8 +7,7 @@ interface Company {
 
 const CompanyBadge:React.FC<Company> = ({ name, path }) => {
     return (
-        
-        <div className="h-36 max-w-sm bg-white hover:scale-105 transition ease-out">
+        <div className="h-36 max-w-sm bg-white hover:scale-105 transition ease-out flex-shrink-0">
             <Image src={path} width={300} height={300} className="h-full w-auto px-8 py-8 object-contain" alt={name}></Image>
         </div>
     )

@@ -50,7 +50,6 @@ export const internship = {
     imageDesc: 'Our Fall \'23 Cohort & their airplane launcher project!',
     bulletPoints: [
         'Join a fun, welcoming group of engineers at UC Davis!',
-        'Take on high impact leadership roles to keep serving the Davis engineering community.',
         'Acquire invaluable professional development through our simulated internship program.',
         'Get hands on engineering experience by contributing to a group construction project.',
         'Gain access to an extensive alumni network with deep roots in industry.'

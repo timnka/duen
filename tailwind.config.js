@@ -28,8 +28,31 @@ module.exports = {
       'duen-purple-300': '#271b29',
       'duen-purple-400': '#221125',
       'duen-purple-500': '#1b091e',
+      'ink': '#0D0D0D',
+      'warm-gray': '#1A1814',
     },
     extend: {
+      colors: {
+        'cream': '#fffdd0',
+        'purple': '#310652',
+        'purple-800': '#5b21b6',
+        'light-blue': '#ADD8E6',
+        'lavender': '#edd1ff',
+        'linkedin-blue': '#0077b5',
+        'duen-gold-100': '#fff2d7',
+        'duen-gold-200': '#edd6aa',
+        'duen-gold-300': '#c7aa72',
+        'duen-gold-400': '#a68649',
+        'duen-gold-500': '#876728',
+        'duen-purple-100': '#665269',
+        'duen-purple-200': '#453648',
+        'duen-purple-300': '#271b29',
+        'duen-purple-400': '#221125',
+        'duen-purple-500': '#1b091e',
+        'warm-gray': '#1A1814',
+        'ink': '#0D0D0D',
+        'text-secondary': '#8A7F72',
+      },
       fontFamily: {
         poppins: ['var(--font-poppins)'],
         raleway: ['var(--font-raleway)'],
@@ -40,7 +63,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'landing':"url('/landing-content/grads1.png')"
+        'landing':"url('/landing-content/Grads_updated.jpg')"
       },
     },
   },
