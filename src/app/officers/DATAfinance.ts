@@ -109,7 +109,7 @@ export const finance = [
     cohort: 'Fall 2025 Cohort',
     position: 'Finance',
     linkedin: '',
-    image: '/officers/cooc_ethan.jpeg',
+    image: '/officers/_no_photo.jpg',
   },
   {
     name: 'John Macaranas',
