@@ -211,7 +211,7 @@ export const projects: Project[] = [
     semester: 'Spring 2025',
     shortDescription: 'Smart fan with person-tracking and evaporative cooling to reduce energy use and carbon footprint.',
     description: 'Windtrax is a fan that tracks the closest person in the room and rotates to follow them while blowing cool air. It uses an IMX708 Arducam with a Raspberry Pi and YOLO for real-time person detection. Cooling is provided by a DURA-COOL evaporative pad: the pad is soaked in distilled water and frozen, so Windtrax blows cool air. The fan turns off when no one is detected, saving electricity. The system includes a 775 12V DC motor and NEMA 17 stepper motor, 3D-printed PLA parts, and a Bluetooth app.',
-    imagePath: '/projects/Windtrax.jpeg',
+    imagePath: '/projects/WindTrax.jpeg',
     teamImagePath: '/projects/WindtraxTeam.jpeg',
     softwareUsed: ['Python', 'YOLO (Ultralytics)', 'gpiozero', 'Raspberry Pi OS', 'Picamera2', 'Bluetooth app'],
     designProcess: [

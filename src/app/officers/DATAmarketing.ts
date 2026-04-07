@@ -72,7 +72,7 @@ export const marketing = [
     cohort: 'Fall 2025 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/donald-l-a46009283/',
-    image: '/officers/le_donald.jpeg',
+    image: '/officers/_no_photo.jpg',
   },
   {
     name: 'Ethan Thurston',
@@ -99,7 +99,7 @@ export const marketing = [
     cohort: 'Fall 2025 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/madeleine-kim-b7554637a/',
-    image: '/officers/kim_madeleine.jpeg',
+    image: '/officers/_no_photo.jpg',
   },
   {
     name: 'Nancy Wang',

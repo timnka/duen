@@ -54,7 +54,7 @@ export const allofficers = [
         cohort: 'Fall 2022 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/richmond-ballesteros-56aa99210/',
-        image: '/officers/ballesteros-richmond.JPEG',
+        image: '/officers/_no_photo.jpg',
     },
         {
         name: 'Abubakr Hadwan',
@@ -883,7 +883,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: '',
-        image: '/officers/cooc_ethan.jpeg',
+        image: '/officers/_no_photo.jpg',
     },
     {
         name: 'Claris Tain',
@@ -901,7 +901,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/donald-l-a46009283/',
-        image: '/officers/le_donald.jpeg',
+        image: '/officers/_no_photo.jpg',
     },
     {
         name: 'Ryan Ton',
@@ -964,7 +964,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/madeleine-kim-b7554637a/',
-        image: '/officers/kim_madeleine.jpeg',
+        image: '/officers/_no_photo.jpg',
     },
     {
         name: 'Devin Sidhu',

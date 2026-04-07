@@ -63,7 +63,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'landing':"url('/landing-content/Grads_updated.jpg')"
+        'landing':"url('/landing-content/Grads_updated.JPG')"
       },
     },
   },
