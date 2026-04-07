@@ -64,7 +64,7 @@ export const finance = [
       cohort: 'Fall 2025 Cohort',
       position: 'Finance',
       linkedin: 'https://www.linkedin.com/in/adam-kim-167957327/',
-      image: '/officers/kim_adam.jpeg',
+      image: '/officers/Kim_Adam.jpeg',
   },
   // {
   //   name: 'Kenneth Wong',
@@ -91,7 +91,7 @@ export const finance = [
     cohort: 'Fall 2025 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/atharvakharwadkar/',
-    image: '/officers/kharwadkar_atharva.jpeg',
+    image: '/officers/Kharwadkar_Atharva.jpeg',
   },
   {
     name: 'Andrew Harrington',

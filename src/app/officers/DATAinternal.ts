@@ -63,7 +63,7 @@ export const internal = [
     cohort: 'Fall 2025 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/benjamin-brundage-63319633a/',
-    image: '/officers/brundage_ben.jpeg',
+    image: '/officers/Brundage_Ben.jpeg',
   },
   {
     name: 'Devin Sidhu',
@@ -72,7 +72,7 @@ export const internal = [
     cohort: 'Fall 2025 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/devin-gill-sidhu-a03745328/',
-    image: '/officers/sidhu_devin.jpeg',
+    image: '/officers/Sidhu_Devin.jpeg',
   },
   {
     name: 'Etienne Rousseau',
@@ -99,7 +99,7 @@ export const internal = [
     cohort: 'Fall 2025 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/jessica-ting-404034352/overlay/background-image/',
-    image: '/officers/ting_jessica.jpeg',
+    image: '/officers/Ting_Jessica.jpeg',
   },
   {
     name: 'Joshua Wei',
