@@ -51,20 +51,20 @@ export const finance = [
   {
     name: 'Cody Chen',
     year: 'Class of 2027',
-    major: 'Computer Science',
+    major: 'Computer Science and Engineering',
     cohort: 'Spring 2024 Cohort',
     position: 'Committee Director, Finance',
     linkedin: 'https://www.linkedin.com/in/cody-chen-05b379303/',
     image: '/officers/Chen_Cody.jpeg',
   },
-    {
-      name: 'Adam Kim',
-      year: 'Class of 2028',
-      major: 'Computer Engineering',
-      cohort: 'Fall 2025 Cohort',
-      position: 'Finance',
-      linkedin: 'https://www.linkedin.com/in/adam-kim-167957327/',
-      image: '/officers/kim_adam.jpeg',
+  {
+    name: 'Adam Kim',
+    year: 'Class of 2028',
+    major: 'Computer Engineering',
+    cohort: 'Fall 2025 Cohort',
+    position: 'Finance',
+    linkedin: 'https://www.linkedin.com/in/adam-kim-167957327/',
+    image: '/officers/Kim_Adam.jpeg',
   },
   // {
   //   name: 'Kenneth Wong',
@@ -91,7 +91,7 @@ export const finance = [
     cohort: 'Fall 2025 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/atharvakharwadkar/',
-    image: '/officers/kharwadkar_atharva.jpeg',
+    image: '/officers/Kharwadkar_Atharva.jpeg',
   },
   {
     name: 'Andrew Harrington',
@@ -105,7 +105,7 @@ export const finance = [
   {
     name: 'Ethan Cooc',
     year: 'Class of 2029',
-    major: 'Computer Science',
+    major: 'Environmental Engineering',
     cohort: 'Fall 2025 Cohort',
     position: 'Finance',
     linkedin: '',

@@ -61,8 +61,8 @@ export const recruitment = {
     activeRecruitment: {
         title: 'We are actively recruiting new officers for Spring 2026!',
         activeDescription: 'Come meet and hang out with DUEN officers at our recruitment events.',
-        flyer: '/join-content/fall25flyer1.png'
+        flyer: '/join-content/sp26flyer.png'
     },
     inactiveRecruitment: 'We are not currently recruiting new officers. We open recruitment at the beginning of every Fall and Spring quarters. Follow us on Instagram @duen_ucd for updates!'
-    
+
 }
