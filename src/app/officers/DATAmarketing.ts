@@ -108,6 +108,6 @@ export const marketing = [
     cohort: 'Fall 2025 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/nancywang22/',
-    image: '/officers/wang_nancy.jpeg',
+    image: '/officers/Wang_Nancy.jpeg',
   }
 ];

@@ -56,7 +56,7 @@ export const allofficers = [
         linkedin: 'https://www.linkedin.com/in/richmond-ballesteros-56aa99210/',
         image: '/officers/_no_photo.jpg',
     },
-        {
+    {
         name: 'Abubakr Hadwan',
         year: 'Class of 2024',
         major: 'Biomedical Engineering',
@@ -419,7 +419,7 @@ export const allofficers = [
     {
         name: 'Cody Chen',
         year: 'Class of 2027',
-        major: 'Computer Science & Engineering',
+        major: 'Computer Science and Engineering',
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/cody-chen-59701a290/',
@@ -999,8 +999,8 @@ export const allofficers = [
 
 
 
-    
 
 
-    
+
+
 ]
