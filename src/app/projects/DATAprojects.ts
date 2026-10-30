@@ -1,4 +1,4 @@
-export type Semester = 'Fall 2022' | 'Spring 2023' | 'Fall 2023' | 'Spring 2024' | 'Fall 2024' | 'Spring 2025' | 'Fall 2025'
+export type Semester = 'Fall 2022' | 'Spring 2023' | 'Fall 2023' | 'Spring 2024' | 'Fall 2024' | 'Spring 2025' | 'Fall 2025' | 'Spring 2026'
 
 export interface ProjectLink {
   label: string
@@ -294,9 +294,62 @@ export const projects: Project[] = [
       'Raspberry Pi 5, AI camera, 12V battery, 3D-printed PLA/PETG',
     ],
   },
+  {
+    slug: 'flashback',
+    title: 'Flashback',
+    semester: 'Spring 2026',
+    cohortName: 'Bing Chillin',
+    shortDescription: 'A photo booth that shoots still photos, photo strips, or 270° panoramas, then prints them instantly on a thermal printer as physical keepsakes.',
+    description: 'The Spring 2026 cohort, "Bing Chillin", built Flashback, a panoramic photobooth that encourages students to hold onto memories through physical keepsakes. Users pick a mode on a touchscreen interface: a still photo, a photo strip, or a 270° panoramic capture that fits a whole group in one shot. A Raspberry Pi controls the camera, and a servo-driven rotating mount pans it around users for panoramas. Images are stitched together with OpenCV and sent to a built-in thermal printer, which dispenses the finished photo straight from the booth. An optional QR code gives users a digital copy for 48 hours.',
+    imagePath: '/projects/Flashback.jpeg',
+        softwareUsed: ['Python', 'Python libraries (image stitching)', 'SolidWorks', 'Autodesk Fusion', 'Tinkercad', 'Visual Studio Code', 'ChatGPT', 'Claude Code'],
+    timeline: [
+      { date: 'Weeks 1-2', description: 'Initial design phase; most parts ordered. Started panoramic capture, prototyped emergency and capture button code, set up Raspberry Pi.' },
+      { date: 'Week 3', description: 'CAD for camera placement; coded still capture, live video feed, and motor rotation. Design moved from boxy to R2-D2-inspired. Screen connected; wrong-size ribbon cable reordered.' },
+      { date: 'Week 4', description: 'Tolerance print for wall connections; CAD migrated to SolidWorks. Height mechanism done, ring light connected, early UI code. UI switched from touchscreen to physical buttons. Technical presentation, fundraiser, ~75%-scale cardboard model.' },
+      { date: 'Week 5', description: 'Printed base halves, camera housing, and bearing mechanism. Chassis split into smaller parts for printing. UI revamp, merged UI and panoramic functions, countdown screen, LED check.' },
+      { date: 'Week 6', description: 'Finalized chassis (counterweight housings, hex cutouts); assembled, painted, and troubleshot prints. Added camera extension module, verified power system, connected UI to core code.' },
+    ],
+    designProcess: [
+      'Exterior: Designed in SolidWorks with a polaroid-inspired look; camera extension module, screen housing, thermal printer compartment, honeycomb electronics shelf for ventilation. Front/rear halves joined with L-shaped tabs and screws; top/bottom use male/female connections.',
+      'Rotation: High-torque digital servo rotates the whole chassis on a lazy-susan ball bearing ring; counterweights in base plate extrusions prevent wobble and tipping.',
+      'Height: Bayonet mount with L-shaped cutouts every inch; pole slides and locks with a peg, and sinks nearly fully into the chassis for transport.',
+      'Electronics: Raspberry Pi 4 (4GB), Camera Module 2, 24-bit ring light, 5 tactile buttons, 5-in touchscreen. 12.6V LiPo → toggle switch → 6-way fuse box → buck converters at 5V (Pi), 8V (printer), 6V (servo).',
+      'Capture: Servo sweeps 270°, taking 16 stills at 0.28 s each (4.48 s total); Python stitching merges frames and auto-crops black pixels.',
+    ],
+    challenges: [
+      { problem: 'Changing room lighting made stitching unreliable.', solution: 'Hours of tuning capture count, angles, timing, exposure, and lighting.' },
+      { problem: 'Main Pi short-circuited right before the first technical review.', solution: 'Swapped in a spare; nothing was permanently attached, so little was lost.' },
+      { problem: 'Final hardware wasn\'t printed until the last week.', solution: 'Used cardboard prototypes to test the panoramic function.' },
+      { problem: 'Chassis resting on a single motor screw caused load and wobble.', solution: 'Circular track on a lazy-susan bearing ring plus counterweight housings.' },
+      { problem: 'Settling on a form and panel connections took a week of iteration.', solution: 'Chose polaroid look over R2-D2, Wall-E, and vintage camera; moved from connectors, heat inserts, and glue to L-shaped tabs with screws.' },
+      { problem: 'Different table and participant heights.', solution: 'Bayonet height mount with one-inch increments that retracts for transport.' },
+    ],
+    materials: ['Raspberry Pi 4 (4GB)', 'Camera Module 2', 'Camera cable', '5 in. touchscreen IPS', 'Thermal printer', 'Thermal paper rolls', '24-bit ring light', '12.6V LiPo battery', 'High-torque servo', 'Ball bearings', 'Heat sink', 'Buck converters', '6-way fuse box', 'Rocker switches', 'Spade crimp connectors', 'PLA filament', 'PLA glue', 'Weights', 'Screws', 'Paint supplies'],
+    cost: '$339.60',
+    userGuide: [
+      'How to use: Flip the ON/OFF switch on the side. Position everyone in an arc up to 270° around the camera. Adjust camera height and lock with the peg. Yellow button cycles ring light brightness; blue button previews. Press green to capture, wait 3 seconds, say "Cheese!" Tear the print from the printer slot.',
+      'Emergency shutoff: Press the red button; the motor stops at the next checkpoint, overlays close, and you can retry from the main screen.',
+      'Do not: Manually rotate the chassis. Touch internal wiring. Move during capture. Tangle the charging wire around the chassis; only charge when not in use.',
+    ],
+    maintenance: [
+      'Charge the battery from a wall outlet. Replace thermal paper when out. Check wiring and internals for shorts or heat damage. Re-glue peeling parts. Re-print cracked parts. Wipe dust off the exterior. Touch up worn paint.',
+    ],
+    links: [
+      { label: 'Project website', url: 'https://bing-chillings.vercel.app/' },
+      { label: 'Final presentation (Google Slides)', url: 'https://docs.google.com/presentation/d/1yb4LGq_SaN8C-NNutf_OEeGjzeH1KUGRpoRw4zWPGhM/edit?usp=sharing' },
+    ],
+    highlights: [
+      '270° panoramic capture: 16 stills in 4.48 s, stitched in Python',
+      'Built-in thermal printer for instant physical keepsakes',
+      'Rotating chassis on a lazy-susan bearing with counterweights',
+      'Adjustable camera height via bayonet mount',
+      'Raspberry Pi 4, 12.6V LiPo, 3D-printed PLA, polaroid-inspired design',
+    ],
+  },
 ]
 
-const semesterOrder: Semester[] = ['Spring 2023', 'Fall 2023', 'Spring 2024', 'Fall 2024', 'Spring 2025', 'Fall 2025']
+const semesterOrder: Semester[] = ['Spring 2023', 'Fall 2023', 'Spring 2024', 'Fall 2024', 'Spring 2025', 'Fall 2025', 'Spring 2026']
 
 export function getProjectsBySemester(): Record<Semester, Project[]> {
   const grouped: Record<string, Project[]> = {}

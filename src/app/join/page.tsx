@@ -51,8 +51,24 @@ export default function Join() {
                                     <Image src={recruitment.activeRecruitment.flyer} width={400} height={400} alt="flyer"></Image>
                                 </div>
                                 :
-                                <div className="w-2/3 font-bold bg-gray-300 rounded-lg py-5 px-3">
-                                    {recruitment.inactiveRecruitment}
+                                <div className="w-full max-w-5xl px-8 md:px-16">
+                                    <div className="rounded-2xl border border-duen-gold-300/20 bg-ink p-8 md:p-10 relative overflow-hidden">
+                                        <div
+                                            className="absolute inset-0 pointer-events-none rounded-2xl"
+                                            style={{
+                                                background:
+                                                    "radial-gradient(ellipse 70% 60% at 85% 50%, rgba(199,170,114,0.08) 0%, transparent 55%)",
+                                            }}
+                                        />
+                                        <div className="relative z-10">
+                                            <p className="font-mono text-xs tracking-widest text-duen-gold-300 uppercase mb-4">
+                                                Recruitment Closed
+                                            </p>
+                                            <p className="text-lg md:text-xl font-light text-duen-gold-100 leading-relaxed max-w-[60ch]">
+                                                {recruitment.inactiveRecruitment}
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                         }
                     </div>

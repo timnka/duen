@@ -39,6 +39,7 @@ const cohortMap = organizeByCohort()
 
 // Define the order of cohorts (most recent first)
 const cohortOrder = [
+  'Spring 2026 Cohort',
   'Fall 2025 Cohort',
   'Spring 2025 Cohort',
   'Fall 2024 Cohort',

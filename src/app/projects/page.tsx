@@ -131,12 +131,6 @@ export default function ProjectsPage() {
               </div>
             )
           })}
-          {/* Scroll hint arrow */}
-          <div className="flex-shrink-0 w-12 flex items-center justify-center self-center opacity-30" aria-hidden>
-            <svg className="w-8 h-8 text-duen-gold-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
         </div>
 
         <div className="px-8 md:px-16 mt-4">
